@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+#Nothing to do with CMU Sphinx, but handy to play its test files.
+# Play the raw sample file.
 #This plays but there are probably issues with the parameters (sample rate,
 # etc.). I got this from
 # https://stackoverflow.com/q/20314739

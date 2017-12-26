@@ -1,6 +1,8 @@
 /* What goes in hello_ps.c? */
 
 #include <pocketsphinx.h>
+#define MODELDIR "/usr/local/share/pocketsphinx/model"
+#define DATADIR "/home/philip/Dropbox/ubuntu/cmu-sphinx"
 
 int
 main(int argc, char *argv[])
@@ -14,18 +16,12 @@ main(int argc, char *argv[])
     int32 score;
 
     config = cmd_ln_init(NULL, ps_args(), TRUE,
-/* #ifndef __JETBRAINS_IDE__ */
-#define MODELDIR "/usr/local/share/pocketsphinx/model"
-#define GCC TRUE
-#ifdef GCC
+/* Note: the #defines I had here were working a lot less well than I thought!
+ * In fact they weren't compiling in at all, so executing required command
+ * line args. Which are probably a good idea eventually anyway....*/
              "-hmm", MODELDIR "/en-us/en-us",
              "-lm", MODELDIR "/en-us/en-us.lm.bin",
            "-dict", MODELDIR "/en-us/cmudict-en-us.dict",
-#else
-            "-hmm", "MODELDIR" "/en-us/en-us",
-             "-lm", "MODELDIR" "/en-us/en-us.lm.bin",
-           "-dict", "MODELDIR" "/en-us/cmudict-en-us.dict",
-#endif
              NULL);
     if (config == NULL) {
   fprintf(stderr, "Failed to create config object, see log for details\n");
@@ -38,9 +34,10 @@ main(int argc, char *argv[])
   return -1;
     }
 
-    fh = fopen("goforward.raw", "rb");
+    fh = fopen(DATADIR "/goforward.raw", "rb");
     if (fh == NULL) {
   fprintf(stderr, "Unable to open input file goforward.raw\n");
+  fprintf(stderr, "DATADIR: " DATADIR "\n");
   return -1;
     }
 
