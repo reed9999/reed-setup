@@ -1,8 +1,30 @@
 ########################################
 # SECONDARY SETUP FILE
+# Where I set up everything needed for hacking and building misc things
+# from src
 ########################################
 
-#DRY violation -- mostly repeated from basic-setup, but not all
+  #---------------
+  # GIT CLONES
+  # Was moved here from basic-setup
+  #---------------
+
+# # cd ~/code
+# # array=(anki econgraphs qutebrowser freeCodeCamp awesome-for-beginners Theano coala coala-bears)
+# # for repo in "${array[@]}"
+# # do
+# # 	echo "Now cloning $repo."
+# # 	git clone "https://github.com/reed9999/$repo"
+# # done
+
+
+#also anki, django already done
+#reedanki needs to be in ~/Documents/Anki/addons/, in the *root*
+
+  #---------------
+  # BUILD FROM SOURCE
+  #---------------
+#DRY violation -- mostly repeated from the part above, but not all
 # Not sure whether to inclued econgraphs
 array=(
 #anki

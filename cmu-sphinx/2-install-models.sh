@@ -3,11 +3,22 @@
 # First attempt was messy. See old-002-models.sh
 ########################################
 
-#1. Try this - https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst#notes-on-the-structure-of-the-language-data
-# However I think that's just for that python library, not in general!
-#https://github.com/Uberi/speech_recognition
+#Hello world.
+# From https://cmusphinx.github.io/wiki/tutorialpocketsphinx/
+gcc -o hello_ps hello_ps.c \
+    -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" \
+    `pkg-config --cflags --libs pocketsphinx sphinxbase`
+
+en_us_dir=/usr/local/share/pocketsphinx/model/en-us/en-us
+lm_dir=/usr/local/share/pocketsphinx/model/en-us/en-us.lm.bin
+cmu_dict_dir=/usr/local/share/pocketsphinx/model/en-us/cmudict-en-us.dict
+
+ls $lm_dir
+ls $cmu_dict_dir
 
 
+#Also useful: Be able to resample
+sudo apt install sox
 
 #Earlier documentation from old-002-models.sh
 #Possibly also useful stuff

@@ -1,5 +1,8 @@
 ########################################
-# 003 INSTALL - DIFFERENT APPROACH
+# archive-3 INSTALL - DIFFERENT APPROACH
+# I don't know whether I actually implemented this.
+# However, it could contain the "magic" that got pocketsphinx_continuous to suddenly work.
+
 
 #https://github.com/cmusphinx/pocketsphinx/issues/57
 # Hope this link works. If not, see at bottom.

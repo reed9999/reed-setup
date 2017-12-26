@@ -2,37 +2,35 @@
 # outfitted with everything I need for productive work.
 # It's "basic" in the sense of basic to my needs.
 
+  #---------------
+  # LEARNING bash
+  # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
+  # comment that stuff with #bash#
+  #---------------
 ################
 # INSTALLATIONS
 ################
 
-sudo apt install vlc
+#pass the flag --all as the first param if we don't wish to reinstall old stuff.
+#This provides a convenient way for me 'comment' code yet still run it easily.
+if [ "$1" == "--all" ]
+then
+  echo "Running the full setup (reinstalling everything)."
+  sudo apt install vlc
+  ln -s ~/Documents/dissertation/ ~/zd
+  ln -s ~/Documents/transcriptions/ ~/zt
+  sudo apt install python-logilab-common
+else
+  echo "Running only the abbreviated setup (stuff I haven't installed yet.)"
+  echo $1
+fi
 
+outfitting/setup.sh $1
 ################
 # SYMLINKS
 ################
-# # ln -s ~/Documents/dissertation/ ~/zd
-# # ln -s ~/Documents/transcriptions/ ~/zt
 
 
-# # sudo apt install python-logilab-common
-
-
-################
-# GIT CLONES
-################
-
-# # cd ~/code
-# # array=(anki econgraphs qutebrowser freeCodeCamp awesome-for-beginners Theano coala coala-bears)
-# # for repo in "${array[@]}"
-# # do
-# # 	echo "Now cloning $repo."
-# # 	git clone "https://github.com/reed9999/$repo"
-# # done
-
-
-#also anki, django already done
-#reedanki needs to be in ~/Documents/Anki/addons/, in the *root*
 
 #I've already set up dissertation, but set up the iconf branch too.
 ## cd ~/Documents
@@ -41,6 +39,9 @@ sudo apt install vlc
 ## git checkout iconf2018
 
 #https://askubuntu.com/a/865569
-sudo add-apt-repository ppa:jonathonf/python-3.6
-sudo apt-get update
-sudo apt-get install python3.6
+if (FALSE)
+then
+  sudo add-apt-repository ppa:jonathonf/python-3.6
+  sudo apt-get update
+  sudo apt-get install python3.6
+fi

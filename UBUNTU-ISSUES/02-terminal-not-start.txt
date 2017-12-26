@@ -1,0 +1,3 @@
+The real problem was that my python links had gotten fouled up.
+Wondering how that happened, I took a .zip snapshot.
+https://askubuntu.com/a/880191/679415

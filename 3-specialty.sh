@@ -4,5 +4,14 @@
 ########################################
 
 # # sudo apt install ffmpeg
-ffmpeg --help > temp3.txt
+# # ffmpeg --help > temp3.txt
 
+# # sudo apt install golly
+
+# # sudo apt install docky
+
+
+
+#Hmm, install Compiz Config Settings Manager 
+# but this doesn't work
+#sudo apt-get install ccsm
