@@ -3,7 +3,7 @@
 #include <pocketsphinx.h>
 #define MODELDIR "/usr/local/share/pocketsphinx/model"
 #define DATADIR "/home/philip/Dropbox/ubuntu/cmu-sphinx"
-
+#define GREEK
 int
 main(int argc, char *argv[])
 {
@@ -16,12 +16,15 @@ main(int argc, char *argv[])
     int32 score;
 
     config = cmd_ln_init(NULL, ps_args(), TRUE,
-/* Note: the #defines I had here were working a lot less well than I thought!
- * In fact they weren't compiling in at all, so executing required command
- * line args. Which are probably a good idea eventually anyway....*/
-             "-hmm", MODELDIR "/en-us/en-us",
+#ifdef GREEK
+                         "-hmm", MODELDIR "/el-gr/el-gr.cd_cont_5000",
+                         "-lm", MODELDIR "/el-gr/el-gr.lm",
+                         "-dict", MODELDIR "/el-gr/el-gr.dic",
+#else
+    "-hmm", MODELDIR "/en-us/en-us",
              "-lm", MODELDIR "/en-us/en-us.lm.bin",
            "-dict", MODELDIR "/en-us/cmudict-en-us.dict",
+#endif
              NULL);
     if (config == NULL) {
   fprintf(stderr, "Failed to create config object, see log for details\n");
@@ -33,8 +36,11 @@ main(int argc, char *argv[])
   fprintf(stderr, "Failed to create recognizer, see log for details\n");
   return -1;
     }
-
+#ifdef GREEK
+    fh = fopen(DATADIR "/el-gr/aero_iap-20150703-ftm/wav/resample-el-0034.wav", "rb");
+#else
     fh = fopen(DATADIR "/goforward.raw", "rb");
+#endif
     if (fh == NULL) {
   fprintf(stderr, "Unable to open input file goforward.raw\n");
   fprintf(stderr, "DATADIR: " DATADIR "\n");
