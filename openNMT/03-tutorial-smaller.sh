@@ -15,7 +15,7 @@ echo "head of the dictionary"
 head -n 25 data/short.demo.src.dict
 
 echo; echo; echo "Step 2. Now train the model..."
-th train.lua -data data/demo-train.t7 -save_model demo-model
+th train.lua -data data/demo-train.t7 -save_model demo-model -log_level DEBUG
 
 echo; echo; echo "Step 3. Translate."
 th translate.lua -model demo-model_epochX_PPL.t7 -src data/src-test.txt -output pred.txt
