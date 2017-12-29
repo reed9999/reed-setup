@@ -1,0 +1,3 @@
+#://help.github.com/articles/changing-a-remote-s-url/
+
+git remote set-url origin https://github.com/reed9999/OpenNMT

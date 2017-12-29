@@ -1,0 +1,10 @@
+Get rid of Ctrl+S freezing
+https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal
+
+
+Get rid of launcher
+https://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-of-the-alt-key
+
+
+git config credential.helper store
+
