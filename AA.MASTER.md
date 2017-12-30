@@ -7,21 +7,26 @@ MASTER LIST OF PROJECTS
 
 ## 1. Tech things I'd like to accomplish
 
-- Learn NLTK
-- - work through the book
 
 - Do something useful with OpenNMT
+- - Figure out what I broke
+- - Read the academic paper
+
+
 - Do something useful with CMU Sphinx
-- - improve the build in CLion
-- - build Greek in CLion
-- - Python bindings in CLion
+- - DONE improve the build in CLion
+- - DONE build Greek in CLion
+- - pocketsphinx-py in PyCharm
 
 - Turn my Anki addons into something reasonable.
 - - Simulate what Anki does for loading modules
 - - spelunk Anki code 
 
-- Automate the Python3 .5 vs .6 issue
+- Automate the Python3 .5 vs .6 issue fully
+- - DONE  automate it crudely at first
 
+- Learn NLTK
+- - work through the book
 
 - Show that I can build a lot of open-source stuff
 - - glibweather and easy stuff from the same install file.
