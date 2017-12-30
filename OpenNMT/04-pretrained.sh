@@ -23,5 +23,5 @@ MODEL=$PRETRAINED_DIR/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7
 ls -l $MODEL
 
 cd ~/code/OpenNMT
-th translate.lua -model $MODEL -src data/src-test.txt -output pred.txt
+th translate.lua -model $MODEL -src ~/u/OpenNMT/data/src-test.txt -output ~/u/OpenNMT/pred.txt
 
