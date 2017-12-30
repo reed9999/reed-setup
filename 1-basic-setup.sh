@@ -7,6 +7,24 @@
   # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
   # comment that stuff with #bash#
   #---------------
+clone_dissertation_repos()
+{
+  cd ~/Documents
+  git config credential.helper store
+  git clone https://github.com/reed9999/dissertation
+  git clone https://github.com/reed9999/transcriptions
+
+  ln -s ~/Documents/dissertation/ ~/diss
+  ln -s ~/Documents/transcriptions/ ~/trxn
+
+}
+
+install_and_configure_vim()
+{
+	#TODO - find the .vimrc and .viminfo files and copy them to right place
+	pwd
+}
+
 ################
 # INSTALLATIONS
 ################
@@ -16,32 +34,27 @@
 if [ "$1" == "--all" ]
 then
   echo "Running the full setup (reinstalling everything)."
-  sudo apt install vlc
-  ln -s ~/Documents/dissertation/ ~/zd
-  ln -s ~/Documents/transcriptions/ ~/zt
-  sudo apt install python-logilab-common
+  clone_dissertation_repos
+  install_and_configure_vim
+  cd ~/u
+  outfitting/setup.sh $1
 else
   echo "Running only the abbreviated setup (stuff I haven't installed yet.)"
-  echo $1
 fi
 
-outfitting/setup.sh $1
+
+
 ################
-# SYMLINKS
+# ANY OTHER SYMLINKS?
 ################
 
 
 
-#I've already set up dissertation, but set up the iconf branch too.
+# iConference 2018 documents. No longer relevant (though I might work on my
+# poster)
 ## cd ~/Documents
 ## git clone https://github.com/reed9999/dissertation iconf2018
 ## cd iconf2018
 ## git checkout iconf2018
 
 #https://askubuntu.com/a/865569
-if (FALSE)
-then
-  sudo add-apt-repository ppa:jonathonf/python-3.6
-  sudo apt-get update
-  sudo apt-get install python3.6
-fi
