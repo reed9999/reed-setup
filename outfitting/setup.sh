@@ -7,11 +7,16 @@
 
 if [ "$1" == "--all" ]
 then
-  sudo apt install chromium
-  sudo apt install vlc
-  sudo apt install bluefish
-  sudo apt install lynx
+  echo "Nothing changes for now."
 else
-  echo "I believe everything in outfitting/setup.sh has been installed, "
-  echo "  so I have nothing to install from outfitting/setup.sh."
+  echo "Nothing changes for now."
+
+#  echo "I believe everything in outfitting/setup.sh has been installed, "
+#  echo "  so I have nothing to install from outfitting/setup.sh."
 fi
+
+sudo apt install redshift
+sudo apt install chromium
+sudo apt install vlc
+sudo apt install bluefish
+sudo apt install lynx

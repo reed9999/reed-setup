@@ -1,12 +1,8 @@
-#This shell script represents all the "initial setup" needed to get my new Ubuntu 16
+########################################
+#This shell script represents all the "initial setup" needed to get my new 
+# Ubuntu 16
 # outfitted with everything I need for productive work.
-# It's "basic" in the sense of basic to my needs.
 
-  #---------------
-  # LEARNING bash
-  # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
-  # comment that stuff with #bash#
-  #---------------
 clone_dissertation_repos()
 {
   cd ~/Documents
@@ -58,3 +54,8 @@ fi
 ## git checkout iconf2018
 
 #https://askubuntu.com/a/865569
+  #---------------
+  # LEARNING bash
+  # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
+  # comment that stuff with #bash#
+  #---------------
