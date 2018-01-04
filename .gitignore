@@ -1,3 +1,7 @@
+z.*
+__*
+out*.txt  
+#But I might override out*.txt sometimes
 *.wav
 Aaron*
 aero_*

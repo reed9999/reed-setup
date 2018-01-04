@@ -8,6 +8,7 @@
 if [ "$1" == "--all" ]
 then
   echo "Nothing changes for now."
+  #Because sudo apt install is fine to rerun
 else
   echo "Nothing changes for now."
 
