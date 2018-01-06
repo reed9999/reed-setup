@@ -1,0 +1,1114 @@
+
+
+
+mkdir: cannot create directory ‘/home/philip/u/OpenNMT/pretrained’: File exists
+https://s3.amazonaws.com/opennmt-models/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7
+[12/29/17 10:19:28 INFO] Loading '/home/philip/u/OpenNMT/pretrained/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7'...	
+[12/29/17 10:19:29 INFO] Model seq2seq trained on bitext	
+[12/29/17 10:19:29 INFO] Using on-the-fly 'space' tokenization for input 1	
+[12/29/17 10:19:29 INFO] Using on-the-fly 'space' tokenization for input 2	
+[12/29/17 10:21:28 INFO] SENT 1: Orlando Bloom and Miranda Kerr still love each other	
+[12/29/17 10:21:28 INFO] PRED 1: Orlando Bloom und Miranda Kerr lieben immer noch einander .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -4.65	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 2: Actors Orlando Bloom and Model Miranda Kerr want to go their separate ways .	
+[12/29/17 10:21:28 INFO] PRED 2: Schauspieler Orlando Bloom und Model Miranda Kerr wollen ihre eigenen Wege gehen .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -3.15	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 3: However , in an interview , Bloom has said that he and Kerr still love each other .	
+[12/29/17 10:21:28 INFO] PRED 3: In einem Interview hat Bloom jedoch gesagt , dass er und Kerr immer noch lieben .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -4.95	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 4: Miranda Kerr and Orlando Bloom are parents to two-year-old Flynn .	
+[12/29/17 10:21:28 INFO] PRED 4: Miranda Kerr und Orlando Bloom sind Eltern , die Flynn <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -4.12	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 5: Actor Orlando Bloom announced his separation from his wife , supermodel Miranda Kerr .	
+[12/29/17 10:21:28 INFO] PRED 5: Der Schauspieler Orlando Bloom hat seine Trennung von seiner Frau <unk> Miranda Kerr angekündigt .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -5.30	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 6: In an interview with US journalist Katie Couric , which is to be broadcast on Friday (local time), Bloom said , &quot; sometimes life doesn &apos;t go exactly as we plan or hope for &quot; .
+[12/29/17 10:21:28 INFO] PRED 6: In einem Interview mit US - Journalistin Katie <unk> , der am Freitag <unk> <unk> Bloom ausgestrahlt wird , sagte <unk> manchmal , dass das Leben <unk> , wie wir planen oder hoffen auf <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -17.86	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 7: He and Kerr still love each other , emphasised the 36-year-old .	
+[12/29/17 10:21:28 INFO] PRED 7: Er und Kerr lieben immer noch einander , betonte die <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -3.51	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 8: &quot; We &apos;re going to support one another and love each other as parents to Flynn &quot; .	
+[12/29/17 10:21:28 INFO] PRED 8: <unk> We <unk> to support one and love each other as <unk> to Flynn <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -6.68	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 9: Kerr and Bloom have been married since 2010 . Their son Flynn was born in 2011 .	
+[12/29/17 10:21:28 INFO] PRED 9: Kerr und Bloom sind seit 2010 verheiratet .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -5.07	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 10: Jet makers feud over seat width with big orders at stake	
+[12/29/17 10:21:28 INFO] PRED 10: Jet - Hersteller <unk> über die <unk> mit großen Aufträgen auf dem Spiel	
+[12/29/17 10:21:28 INFO] PRED SCORE: -7.16	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 11: A row has flared up between leading plane makers over the width of tourist-class seats on long-distance flights , setting the tone for a bitter confrontation at this month &apos;s Dubai Airshow .	
+[12/29/17 10:21:28 INFO] PRED 11: Eine Reihe <unk> zwischen führenden <unk> über die Breite von <unk> - Sitzen auf <unk> - Flügen , setzt den Ton für eine bittere Konfrontation in diesem Monat <unk> Dubai <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -17.17	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 12: The dispute focuses on the width of seats provided on long-haul flights for economy passengers - not always the ones most courted by airlines , but whose allocated space holds the key to efficiency claims for the latest jets offered by Airbus SAS and Boeing Co .	
+[12/29/17 10:21:28 INFO] PRED 12: Der Streit konzentriert sich auf die Breite der Sitze , die auf <unk> Flügen für <unk> vorgesehen sind - nicht immer die <unk> , die von Fluggesellschaften am meisten <unk> werden , deren Platz jedoch den Schlüssel zu <unk> für die neuesten von Airbus SAS und Boeing Co .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -28.74	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 13: Airbus this week called for an industry standard that would provide for a seat at least 18 inches (46 cm) wide in economy cabins , but its U.S. arch-rival Boeing says it should be for airlines to decide .	
+[12/29/17 10:21:28 INFO] PRED 13: Airbus hat diese Woche einen Industriestandard gefordert , der mindestens 18 Zoll <unk> <unk> in <unk> bereitstellen würde , aber seine <unk> <unk> Boeing sagt , dass es für Fluggesellschaften zu entscheiden sein sollte .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -21.03	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 14: The dispute comes as plane makers vie to sell ever-larger versions of their twin-engined long-distance aircraft , with potentially record orders expected at the November 17-21 event .	
+[12/29/17 10:21:28 INFO] PRED 14: Der Streit kommt als <unk> , um <unk> - Versionen ihrer <unk> - Flugzeuge zu verkaufen , mit potenziell <unk> <unk> im November .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -17.44	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 15: How the back of the plane is laid out - particularly whether seating is 9 or 10 abreast - is central to the economic performance claims being made for new &quot; mini-jumbo &quot; jet designs .	
+[12/29/17 10:21:28 INFO] PRED 15: Wie die Rückseite des Flugzeugs ist - vor allem , ob <unk> 9 oder 10 auf dem Weg ist - ist zentraler Bestandteil der wirtschaftlichen <unk> , die für neue <unk> <unk> <unk> <unk> gemacht werden .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -25.32	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 16: Boeing says its revamped &quot; 777X &quot; will hold 406 people based on economy seats more than 17 inches wide and set out 10 in each row .	
+[12/29/17 10:21:28 INFO] PRED 16: Boeing sagt , seine <unk> <unk> <unk> <unk> wird 406 Menschen auf der Basis von <unk> mehr als 17 Zoll halten und 10 in jeder Zeile .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -19.04	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 17: Airbus says the competing version of its A350 will carry 350 people in 18-inch-wide economy seat laid out 9 abreast .	
+[12/29/17 10:21:28 INFO] PRED 17: Airbus sagt , dass die konkurrierende Version seines <unk> 350 Menschen in <unk> <unk> <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -13.57	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 18: Plane giants often trade blows on technical matters through advertising in the trade press .	
+[12/29/17 10:21:28 INFO] PRED 18: Die Riesen - Giganten tauschen oft durch Werbung in der Fachpresse <unk> aus .
+[12/29/17 10:21:28 INFO] PRED SCORE: -15.49	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 19: Now , Airbus is appealing directly to the public ahead of the Dubai Airshow , where the 777X is expected to dominate with more than 100 orders .	
+[12/29/17 10:21:28 INFO] PRED 19: Airbus hat jetzt direkt an die Öffentlichkeit vor der <unk> <unk> appelliert , wo die <unk> mit mehr als 100 Bestellungen dominieren wird .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -14.93	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 20: It recently previewed what may be the start of a new ad war by showing financiers a slide illustrating three people squashed together at a restaurant , titled &quot; Would You Accept This ? &quot;	
+[12/29/17 10:21:28 INFO] PRED 20: Es hat kürzlich <unk> , was der Beginn eines neuen <unk> sein könnte , indem <unk> einen <unk> zeigen , der drei Personen <unk> , die zusammen mit dem Titel „ <unk> “ <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -24.24	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 21: &quot; Boeing is proposing long-distance flying in seats narrower than regional turbo-props , &quot; said Airbus sales chief John Leahy .	
+[12/29/17 10:21:28 INFO] PRED 21: Die <unk> Boeing schlägt <unk> vor , enger als regionale <unk> <unk> , <unk> sagte Airbus <unk> John <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -16.45	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 22: As diets change , people get bigger but plane seating has not radically changed .	
+[12/29/17 10:21:28 INFO] PRED 22: Als <unk> werden die Menschen größer , aber <unk> hat sich nicht radikal verändert .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -11.87	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 23: Between the early 1970s , when the Boeing 747 jumbo defined modern long-haul travel , and the turn of the century , the weight of the average American 40- to 49-year-old male increased by 10 per cent , according to U.S. Health Department Data .	
+[12/29/17 10:21:28 INFO] PRED 23: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -16.84	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 24: The waist of the average 21st-century American male is 39.7 inches , according to U.S. health statistics .	
+[12/29/17 10:21:28 INFO] PRED 24: Die <unk> der <unk> <unk> ist <unk> , laut <unk> <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -11.51	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 25: Airbus says its rival is sticking to a seat concept from the 1950s , when the average girth of the newly christened &quot; jet set &quot; was narrower .	
+[12/29/17 10:21:28 INFO] PRED 25: Airbus sagt seinen Rivalen an einem <unk> aus der <unk> , als die durchschnittliche <unk> des neu <unk> <unk> <unk> schmaler war .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -16.89	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 26: Airbus says it has commissioned research suggesting an extra inch in seat width improves sleep quality by 53 per cent .	
+[12/29/17 10:21:28 INFO] PRED 26: Airbus sagt , es hat Forschung in Auftrag gegeben , um einen zusätzlichen Zoll in der <unk> zu verbessern , die Qualität der Qualität durch 53 Prozent .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -17.12	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 27: Boeing disputes Airbus &apos;s figures on seat measurements and says it is not up to manufacturers to step into decisions on how airlines balance fares and facilities .	
+[12/29/17 10:21:28 INFO] PRED 27: Boeing <unk> Airbus - <unk> - Zahlen über <unk> und erklärt , dass es nicht an den Herstellern liegt , Entscheidungen zu treffen , wie Fluggesellschaften <unk> und - <unk> <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -19.89	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 28: It also says research shows cabin experience depends on more than the width of a seat .	
+[12/29/17 10:21:28 INFO] PRED 28: Es heißt auch , dass die <unk> <unk> von mehr als der Breite eines Sitzes abhängt .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -12.63	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 29: &quot; It really comes down to providing flexibility to airlines and allowing them to do the things that they believe they need to do to be successful , &quot; said Boeing cabins expert Kent Craver .	
+[12/29/17 10:21:28 INFO] PRED 29: <unk> Es kommt wirklich auf die Bereitstellung von Flexibilität für Fluggesellschaften und es ihnen erlaubt , die Dinge , die sie glauben , dass sie zu tun , um erfolgreich zu sein , <unk> sagte Boeing <unk> Experten Kent <unk> .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -24.27	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:21:28 INFO] SENT 30: They don &apos;t want us to dictate to them what makes them profitable .	
+[12/29/17 10:21:28 INFO] PRED 30: Sie wollen , dass wir ihnen diktieren , was sie profitabel machen .	
+[12/29/17 10:21:28 INFO] PRED SCORE: -6.30	
+[12/29/17 10:21:28 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 31: They know their business better than anyone else .	
+[12/29/17 10:23:23 INFO] PRED 31: Sie kennen ihr Geschäft besser als andere .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -4.93	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 32: For flyers it is about more elbow room , but for suppliers it is increasingly an issue that could affect earnings .	
+[12/29/17 10:23:23 INFO] PRED 32: Für Flyer ist es mehr <unk> , aber für Anbieter ist es zunehmend ein Problem , das das Ergebnis beeinflussen könnte .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -10.34	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 33: Behind the dispute is a race for plane orders with at least $ 700-billion of estimated business at list prices in coming decades , enough to tip the scales of U.S. and European exports .	
+[12/29/17 10:23:23 INFO] PRED 33: Hinter dem Streit steht ein Wettlauf um <unk> mit mindestens $ <unk> der geschätzten <unk> in den kommenden Jahrzehnten , genug , um die Waage von <unk> und europäischen Exporten zu <unk> .
+[12/29/17 10:23:23 INFO] PRED SCORE: -16.02	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 34: As Reuters first reported in July , seat layout is exactly what drives the battle between the latest jets .	
+[12/29/17 10:23:23 INFO] PRED 34: Wie Reuters bereits im Juli berichtete , ist die <unk> genau das , was den Kampf zwischen den neuesten Jets antreibt .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -11.45	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 35: Both Airbus and Boeing claim 20 per cent better efficiency per seat in their latest twin-engined long-haul designs than the market leader in that segment , the 365-seat Boeing 777-300ER .	
+[12/29/17 10:23:23 INFO] PRED 35: Sowohl Airbus als auch Boeing behaupten 20 Prozent höhere Effizienz pro Sitz in ihrem neuesten <unk> <unk> als der Marktführer in diesem Segment , der <unk> Boeing <unk> .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -13.39	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 36: Boeing &apos;s performance claims depend in part on comparing the 10-abreast 777X with an original 9-abreast 777 design .	
+[12/29/17 10:23:23 INFO] PRED 36: Die Leistung von Boeing <unk> hängt teilweise vom Vergleich der <unk> <unk> mit einem Original - <unk> 777 Design ab .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -10.87	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 37: The gain in unit costs is blunted compared with 10-abreast now in use .	
+[12/29/17 10:23:23 INFO] PRED 37: Der Gewinn bei <unk> ist im Vergleich zu <unk> jetzt <unk> .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -7.95	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 38: &quot; The reason Boeing are doing this is to cram more seats in to make their plane more competitive with our products , &quot; said Kevin Keniston , head of passenger comfort at Europe &apos;s Airbus .	
+[12/29/17 10:23:23 INFO] PRED 38: <unk> Der Grund , warum Boeing dies tun , ist die <unk> mehr Sitze in der <unk> mit unseren Produkten , <unk> sagte Kevin <unk> , Leiter des <unk> in Europa <unk> Airbus .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -21.74	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 39: On the other hand , analysts say full 10-seat-per-row cabins for existing 777s suggest many passengers are voting for the denser layout , which may go hand in hand with cheaper fares .	
+[12/29/17 10:23:23 INFO] PRED 39: Auf der anderen Seite sagen Analysten voll <unk> Kabinen für bestehende <unk> empfehlen viele Passagiere für das <unk> Layout , die Hand in Hand mit billigeren Tarifen .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -17.46	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 40: &quot; Eighteen inches in seat width would be great for passengers , but the reality is that from a business point of the Airbus proposal is driven by the threat of the 777 , &quot; said cabin interiors expert Mary Kirby , founder and editor of the Runway Girl Network .	
+[12/29/17 10:23:23 INFO] PRED 40: <unk> 18 Zoll in der <unk> wäre groß für die Passagiere , aber die Realität ist , dass von einem Business Point des Airbus - Vorschlags angetrieben wird durch die Bedrohung durch die 777 , <unk> sagte <unk> <unk> Mary <unk> , Gründer und Herausgeber der <unk> Girl Network .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -24.44	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 41: Airbus and Boeing do not supply seats but offer a catalogue of suppliers for airlines to choose from .	
+[12/29/17 10:23:23 INFO] PRED 41: Airbus und Boeing bieten keine Sitze an , bieten aber einen Katalog von Anbietern für Fluggesellschaften an , die sich aus der Wahl auswählen .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -14.34	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 42: Globe-trotting jet sellers even carry tape measures to check on competing layouts .	
+[12/29/17 10:23:23 INFO] PRED 42: <unk> - <unk> tragen auch <unk> zur <unk> bei .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -9.53	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 43: While boasting comfort , all builders also offer jets with high-density layouts for low-cost airlines and regional travel .	
+[12/29/17 10:23:23 INFO] PRED 43: Während <unk> Komfort bieten , bieten alle Erbauer auch Jets mit <unk> - Layouts für <unk> - Airlines und regionale Reisen .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -14.56	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 44: Airbus offers a 10-abreast A350 but says it has not yet sold it .	
+[12/29/17 10:23:23 INFO] PRED 44: Airbus bietet eine <unk> <unk> an , sagt es aber noch nicht .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -7.17	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 45: Until recently , Airbus was stressing the need for more cabin customization by offering wider aisle seats on some of its jets .	
+[12/29/17 10:23:23 INFO] PRED 45: Bis vor kurzem betonte Airbus die Notwendigkeit , mehr <unk> durch <unk> auf einigen seiner Jets zu bieten .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -14.02	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 46: Without the support of the only other maker of large modern jets , experts say its call for a new industry standard is unlikely to fly , but could distract from a wave of 777X sales .	
+[12/29/17 10:23:23 INFO] PRED 46: Ohne die Unterstützung des einzigen <unk> der großen modernen Jets , sagen Experten seine Forderung nach einem neuen <unk> ist unwahrscheinlich , aber könnte von einer Welle von <unk> <unk> ablenken .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -17.40	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 47: The FAA is easing restrictions on the use of electronic gadgets on airplanes - though chatting on cellphones will still be prohibited .	
+[12/29/17 10:23:23 INFO] PRED 47: Die <unk> erleichtert die Beschränkung der Verwendung von elektronischen Geräten auf Flugzeugen - obwohl im Chat auf <unk> noch <unk> wird .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -15.09	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 48: Warplanes attack a store of Russian missiles in the port city of Latakia , an official says .	
+[12/29/17 10:23:23 INFO] PRED 48: <unk> Angriff auf einen Laden russischer Raketen in der Hafenstadt <unk> , eine offizielle Aussage .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -9.01	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 49: It &apos;s an apparent continuation of Israel &apos;s campaign to keep arms from proliferating in the Mideast .	
+[12/29/17 10:23:23 INFO] PRED 49: Es <unk> eine offensichtliche Fortsetzung der israelischen <unk> Kampagne , um Waffen aus der <unk> zu erhalten .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -12.97	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 50: A federal appeals court blocks a judge &apos;s ruling that the NYPD &apos;s controversial tactic discriminates against minorities .	
+[12/29/17 10:23:23 INFO] PRED 50: Ein <unk> <unk> blockiert einen Richter , der die <unk> <unk> umstrittene Taktik diskriminiert .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -9.89	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 51: Nearly 100 African migrants hoping to travel to Algeria die of thirst after their two trucks break down in the middle of the Sahara .	
+[12/29/17 10:23:23 INFO] PRED 51: Fast 100 afrikanische Migranten hoffen , nach Algerien zu reisen , nachdem ihr zwei Lastwagen in der Mitte der Sahara <unk> .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -9.79	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 52: Experts say violence that left 14 adults and seven children dead is nothing more than random chance , not a sign of growing violence in America .	
+[12/29/17 10:23:23 INFO] PRED 52: Experten sagen , Gewalt sei 14 Erwachsene und sieben Kinder sind nichts anderes als zufällige Chance , kein Zeichen für die wachsende Gewalt in Amerika .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -13.56	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 53: Rather than being rattled by the U.S. government shutdown , investors kept their focus on what probably matters more: the Federal Reserve .	
+[12/29/17 10:23:23 INFO] PRED 53: Anstatt durch die <unk> Regierung <unk> zu werden , hielten die Investoren ihren Fokus auf das , was die Federal Reserve wahrscheinlich <unk> .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -15.22	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 54: The California woman plans to challenge what may be a first-of-its-kind citation , saying the Internet-connected eyewear makes navigation easier .	
+[12/29/17 10:23:23 INFO] PRED 54: Die <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -17.05	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 55: Police say they have a video that appears to show Mayor Rob Ford smoking a crack pipe .	
+[12/29/17 10:23:23 INFO] PRED 55: Polizei sagt , sie haben ein Video , das scheint , Bürgermeister Rob Ford Rauchen ein Riss - Rohr .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -8.75	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 56: Even close allies keep things from one another - and work every angle to find out what &apos;s being held back .	
+[12/29/17 10:23:23 INFO] PRED 56: Selbst enge Verbündete halten die Dinge voneinander ab - und arbeiten jeden Winkel , um herauszufinden , was <unk> zurückgehalten werden .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -13.40	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 57: The Vatican wants to know how Catholic parishes around the globe handle sensitive issues like contraception , divorce and gay couples .	
+[12/29/17 10:23:23 INFO] PRED 57: Der Vatikan will wissen , wie katholische Gemeinden rund um den Globus sensible Themen wie Empfängnisverhütung , Scheidung und homosexuelle Paare behandeln .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -6.15	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 58: Persons seriously injured following collision	
+[12/29/17 10:23:23 INFO] PRED 58: Personen , die nach Kollision schwer verletzt werden	
+[12/29/17 10:23:23 INFO] PRED SCORE: -3.12	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 59: Early on Friday afternoon , two car drivers were seriously injured in a head-on collision on Landesstraße 44 (a rural road).	
+[12/29/17 10:23:23 INFO] PRED 59: Am Freitag Nachmittag wurden zwei Autofahrer in einem <unk> auf <unk> 44 <unk> im ländlichen <unk> schwer verletzt .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -13.19	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:23:23 INFO] SENT 60: The police completely blocked off the road immediately , but initially could not make much comment on the cause of the accident .	
+[12/29/17 10:23:23 INFO] PRED 60: Die Polizei hat sofort den Weg versperrt , aber anfangs konnte man nicht viel über die Ursache des Unfalls sagen .	
+[12/29/17 10:23:23 INFO] PRED SCORE: -15.72	
+[12/29/17 10:23:23 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 61: However , they did mention that there were various witness statements that first had to be assessed .	
+[12/29/17 10:24:53 INFO] PRED 61: Sie haben jedoch erwähnt , dass es verschiedene <unk> gab , die zunächst bewertet werden mussten .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -7.95	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 62: What is certain is that the 19-year-old female driver of a VW Golf was driving in the direction of Revensdorf and the 38-year-old man from Gettorf came towards her in his Hyundai .	
+[12/29/17 10:24:53 INFO] PRED 62: Sicher ist , dass der <unk> weibliche Fahrer eines VW Golf gefahren war in Richtung <unk> und der <unk> Mann aus <unk> kam in seine <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -15.81	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 63: The two vehicles collided , whereby the woman was so severely stuck that it took the fire service almost half an hour to free her from the vehicle wreckage .	
+[12/29/17 10:24:53 INFO] PRED 63: Die beiden Fahrzeuge stießen auf , wobei die Frau so schwer <unk> , dass sie den <unk> fast eine halbe Stunde brauchte , um sie von dem <unk> zu befreien .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -15.97	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 64: Initially the actual cause of the accident remained unclear .	
+[12/29/17 10:24:53 INFO] PRED 64: Ursprünglich blieb die Ursache des Unfalls unklar .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -4.93	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 65: Both unfortunate parties were taken to nearby hospitals .	
+[12/29/17 10:24:53 INFO] PRED 65: Beide unglücklichen Parteien wurden in die nahe gelegenen Krankenhäuser aufgenommen .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -6.35	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 66: The road remained fully blocked off for around two hours .	
+[12/29/17 10:24:53 INFO] PRED 66: Die Straße blieb für ungefähr zwei Stunden vollständig gesperrt .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -7.37	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 67: Fire crews called to rescue lost puppy after she got stuck 50ft above the ground on precarious ledge in a quarry	
+[12/29/17 10:24:53 INFO] PRED 67: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>	
+[12/29/17 10:24:53 INFO] PRED SCORE: -11.17	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 68: Cocker spaniel Ruby had run off after she was in a minor road crash	
+[12/29/17 10:24:53 INFO] PRED 68: <unk> <unk> Ruby hatte sich nach ihrem <unk> in einem kleinen <unk> aufgehalten .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -11.49	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 69: She was spotted three days later by a dog walker trapped in the quarry	
+[12/29/17 10:24:53 INFO] PRED 69: drei Tage später durch einen <unk> in der <unk> gefangen genommen .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -6.95	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 70: Firefighters abseil down cliff face to pluck the dog from certain death	
+[12/29/17 10:24:53 INFO] PRED 70: <unk> <unk> <unk> den Hund aus bestimmten Tod .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -6.39	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 71: A puppy had a lucky escape after fire crews were called to lift her to safety when she somehow got herself stuck 50ft up on a precarious cliff ledge .	
+[12/29/17 10:24:53 INFO] PRED 71: Ein <unk> hatte eine glückliche Flucht nach dem <unk> , um sie zu <unk> , wenn sie irgendwie <unk> <unk> auf einer <unk> Klippe <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -17.67	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 72: Nine month-old cocker spaniel Ruby had run off after being involved in a road crash on Sunday afternoon and survived three days alone before being rescued from a quarry on Wednesday .	
+[12/29/17 10:24:53 INFO] PRED 72: Neun <unk> <unk> <unk> Ruby hatte sich nach der Teilnahme an einem <unk> am Sonntag Nachmittag aufgehalten und drei Tage alleine überlebt .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -18.04	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 73: Her owners Scott Alderson , 25 , and his girlfriend Becky Hall , 20 , were at Flappit Quarry in Denholme , West Yorkshire , to be reunited with Ruby and have thanked West Yorkshire Fire and Rescue Service .	
+[12/29/17 10:24:53 INFO] PRED 73: Ihre Besitzer Scott <unk> , 25 , und seine Freundin <unk> Hall , 20 , waren bei <unk> <unk> in <unk> , West Yorkshire , um mit Ruby und <unk> <unk> <unk> und <unk> <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -15.61	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 74: They had searched frantically for their missing dog and posted appeals on social networking sites after she had ran into the quarry following the minor accident .	
+[12/29/17 10:24:53 INFO] PRED 74: Sie suchten nach <unk> für ihren vermissten Hund und entsandten nach dem <unk> nach dem kleinen Unfall <unk> <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -20.03	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 75: At around 2.15pm on Wednesday , an eagle-eyed dog walker spotted Ruby on the ledge in the quarry , stranded 50ft up .	
+[12/29/17 10:24:53 INFO] PRED 75: Bei <unk> am Mittwoch entdeckte ein <unk> Hund <unk> Ruby on the <unk> im Steinbruch , <unk> <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -10.48	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 76: A Technical Rescue Team from Cleckheaton Fire Station rushed to the scene and abseiled down to rescue Ruby and used a pet tube to transport her up the cliff .	
+[12/29/17 10:24:53 INFO] PRED 76: Ein Technical Rescue Team von <unk> Fire Station <unk> ins Szene und <unk> bis zur Rettung Ruby und benutzte ein <unk> , um ihre <unk> zu transportieren .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -20.18	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 77: Specialist Technical Rescue Officer Andy Clayton said: &apos; She was in a precarious situation .	
+[12/29/17 10:24:53 INFO] PRED 77: <unk> Technical Rescue Officer Andy <unk> <unk> <unk> She war in einer prekären Lage .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -5.60	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 78: She was right in the middle of the cliff face - 50ft from the top and bottom .
+[12/29/17 10:24:53 INFO] PRED 78: Sie hatte recht mitten in der Klippe - <unk> von oben und unten .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -8.26	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 79: She did not move a muscle during the rescue - she was frozen solid .	
+[12/29/17 10:24:53 INFO] PRED 79: Sie hat während der Rettung keine Muskeln bewegt - sie wurde eingefroren .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -10.59	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 80: But she is fine now .	
+[12/29/17 10:24:53 INFO] PRED 80: Aber sie ist jetzt gut .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -3.10	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 81: She was eating biscuits afterwards .	
+[12/29/17 10:24:53 INFO] PRED 81: Sie <unk> Kekse hinterher .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -5.85	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 82: This was a very unusual call-out .	
+[12/29/17 10:24:53 INFO] PRED 82: Das war eine sehr ungewöhnliche <unk> .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -3.16	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 83: The fact that the dog was spotted is unbelievable .	
+[12/29/17 10:24:53 INFO] PRED 83: Die Tatsache , dass der Hund entdeckt wurde , ist unglaublich .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -4.57	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 84: Specialist Technical Rescue Officer Peter Lau said: &quot; Ruby had a very lucky escape . &quot;	
+[12/29/17 10:24:53 INFO] PRED 84: <unk> Technical Rescue Officer Peter <unk> <unk> <unk> Ruby hatte eine sehr glückliche Flucht .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -5.14	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 85: The potential was there that she could have been very seriously injured or worse .	
+[12/29/17 10:24:53 INFO] PRED 85: Das Potenzial bestand darin , dass sie sehr schwer verletzt oder schlimmer gewesen wäre .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -10.23	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 86: Ruby was taken to the vets for a check-up and was found to be fine other than exhaustion and dehydration .	
+[12/29/17 10:24:53 INFO] PRED 86: Ruby wurde in die Tierärzte für eine <unk> aufgenommen und wurde als <unk> als <unk> und <unk> gefunden .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -12.81	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 87: Miss Hall , from Halifax , West Yorkshire , said: &quot; Watching the rescue was terrifying . &quot;	
+[12/29/17 10:24:53 INFO] PRED 87: Frau Hall , von <unk> , West Yorkshire , <unk> <unk> beobachtet die Rettung .
+[12/29/17 10:24:53 INFO] PRED SCORE: -8.87	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 88: I could not believe that she was up there in the first place .	
+[12/29/17 10:24:53 INFO] PRED 88: Ich konnte nicht glauben , dass sie dort Platz genommen hat .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -6.41	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 89: It was amazing to get her back in our arms .	
+[12/29/17 10:24:53 INFO] PRED 89: Es war erstaunlich , sie wieder in unseren Armen zu bekommen .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -7.54	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:24:53 INFO] SENT 90: The vet said that if she became too exhausted and collapsed she would probably have fallen .	
+[12/29/17 10:24:53 INFO] PRED 90: Der Tierarzt sagte , wenn sie zu erschöpft und <unk> , wäre sie wahrscheinlich gefallen .	
+[12/29/17 10:24:53 INFO] PRED SCORE: -7.56	
+[12/29/17 10:24:53 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 91: The firefighters were amazing .	
+[12/29/17 10:26:49 INFO] PRED 91: Die Feuerwehr war erstaunlich .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -3.14	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 92: It was really daring what they did .	
+[12/29/17 10:26:49 INFO] PRED 92: Es war wirklich gewagt , was sie taten .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -3.93	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 93: We are just so grateful and every single one of them was absolutely tremendous .	
+[12/29/17 10:26:49 INFO] PRED 93: Wir sind nur so dankbar und jeder einzelne von ihnen war absolut <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -7.56	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 94: Mr Alderson , from Keighley , added: &quot; We were scared that she might fall but she stayed there . &quot;	
+[12/29/17 10:26:49 INFO] PRED 94: Herr <unk> , <unk> <unk> Wir hatten Angst , dass sie vielleicht <unk> , aber sie blieb dort .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -9.37	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 95: The firefighters were brilliant .	
+[12/29/17 10:26:49 INFO] PRED 95: Die Feuerwehr war brillant .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -2.66	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 96: I just can &apos;t believe where she was .	
+[12/29/17 10:26:49 INFO] PRED 96: Ich kann nur <unk> , wo sie war .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -4.32	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 97: Report: Obama campaign considered dumping Biden for Hillary Clinton	
+[12/29/17 10:26:49 INFO] PRED 97: <unk> Obama - Kampagne <unk> <unk> für Hillary Clinton	
+[12/29/17 10:26:49 INFO] PRED SCORE: -4.76	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 98: President Barack Obama &apos;s closest advisers secretly considered replacing Vice President Joe Biden with Hillary Clinton on the 2012 ticket , according to the New York Times .	
+[12/29/17 10:26:49 INFO] PRED 98: Präsident Barack Obama <unk> <unk> Berater im Geheimen als Ersatz für Vizepräsident Joe <unk> mit Hillary Clinton auf dem Ticket von 2012 , laut New York Times .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -15.32	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 99: The revelation is the most notable bombshell from Mark Halperin and John Heilemann &apos;s heavily anticipated 2012 campaign tome , &quot; Double Down: Game Change 2012 . &quot;	
+[12/29/17 10:26:49 INFO] PRED 99: Die Offenbarung ist die <unk> <unk> von Mark <unk> und John <unk> <unk> <unk> 2012 <unk> , <unk> Double <unk> Game Change 2012 .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -6.63	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 100: The Times obtained a copy of the forthcoming book and reported Thursday evening that the President &apos;s top aides conducted &quot; extensive group-sessions and polling in late 2011 &quot; to gauge whether the dumping Biden could help bolster Obama &apos;s waning re-election hopes .	
+[12/29/17 10:26:49 INFO] PRED 100: Die Times erhielt eine Kopie des kommenden Buches und berichtete am Donnerstag Abend , dass der Präsident <unk> <unk> umfassende <unk> und Umfragen Ende 2011 durchführte , um zu beurteilen , ob das Dumping <unk> <unk> <unk> <unk> <unk> hofft .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -23.12	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 101: According to the Times &apos; national political correspondent Jonathan Martin , the book provides a thorough account of the effort by senior officials inside the campaign and the White House , namely former White House Chief of Staff Bill Daley , to measure what effect swapping former Secretary of State Clinton for the Vice President would have in the polls .	
+[12/29/17 10:26:49 INFO] PRED 101: Laut dem Times <unk> nationalen politischen Korrespondenten Jonathan Martin bietet das Buch einen gründlichen Überblick über die Bemühungen hochrangiger Beamter innerhalb der Kampagne und des Weißen Hauses , nämlich des ehemaligen <unk> des Weißen Hauses Bill <unk> , um die Auswirkungen des ehemaligen <unk> Clinton für den Vizepräsidenten zu messen .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -29.70	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 102: The potential switch was a closely guarded secret within the Chicago campaign infrastructure and inside the Oval Office .	
+[12/29/17 10:26:49 INFO] PRED 102: Der <unk> war ein <unk> <unk> innerhalb der Chicago - Kampagne und innerhalb des <unk> Office .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -10.20	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 103: Only half a dozen of the President &apos;s closest advisers -- including Daley , former Obama campaign chief Jim Messina , and former White House senior advisers David Axelrod and David Plouffe -- knew the change was under consideration .	
+[12/29/17 10:26:49 INFO] PRED 103: Nur etwa ein halbes Dutzend des Präsidenten <unk> engsten Berater <unk> , einschließlich <unk> , ehemalige Obama - Kampagne Chef Jim Messina , und ehemaliger <unk> House Senior Berater David <unk> und David <unk> <unk> war die Änderung unter Berücksichtigung .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -23.25	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 104: &quot; Double Down &quot; claims Daley spearheaded the effort to replace Biden , despite their &quot; close personal rapport , &quot; before ultimately deciding against the move when their data showed adding Clinton to the ticket wouldn &apos;t &quot; materially improve Obama &apos;s odds . &quot;	
+[12/29/17 10:26:49 INFO] PRED 104: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> , <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -15.41	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 105: In an interview with Martin , Daley confirmed that the administration did in fact consider replacing Biden with Clinton .	
+[12/29/17 10:26:49 INFO] PRED 105: In einem Interview mit Martin bestätigte <unk> , dass die Verwaltung tatsächlich <unk> , <unk> mit Clinton zu ersetzen .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -7.37	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 106: &quot; I was vocal about looking into a whole bunch of things , and this was one of them , &quot; Daley told the paper .	
+[12/29/17 10:26:49 INFO] PRED 106: <unk> habe ich über eine ganze Reihe von Dingen <unk> , und das war eine von ihnen , <unk> <unk> erzählte dem Papier .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -12.49	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 107: You have to remember , at that point the President was in awful shape , so we were like , &quot; Holy Christ , what do we do ? &quot;	
+[12/29/17 10:26:49 INFO] PRED 107: Sie müssen sich an dieser Stelle erinnern , dass der Präsident in <unk> Form war , so dass wir wie <unk> Heilige Christus , was wir tun , <unk> waren .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -22.99	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 108: While Daley characterized the research as &quot; due diligence , &quot; Martin told CNN &apos;s Anderson Cooper that the re-election campaign made a significant investment in finding out whether the move would pay dividends at the polls .	
+[12/29/17 10:26:49 INFO] PRED 108: Während <unk> die Forschung als <unk> <unk> , sagte <unk> Martin , CNN <unk> Anderson Cooper , dass die <unk> - Kampagne eine signifikante Investition in die Ermittlung der <unk> der <unk> <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -27.43	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 109: &quot; Campaigns don &apos;t spend the kind of money on polling and focus groups unless they &apos;re seriously considering something , &quot; Martin said on AC360 .	
+[12/29/17 10:26:49 INFO] PRED 109: <unk> Kampagnen <unk> die Art von Geld für die Umfragen und <unk> , wenn sie nicht ernsthaft ernsthaft erwägen etwas , <unk> Martin sagte auf <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -17.32	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 110: It &apos;s unclear , however , whether Obama knew his team was exploring the swap .	
+[12/29/17 10:26:49 INFO] PRED 110: Es <unk> jedoch unklar , ob Obama sein Team wusste , das Swap zu erforschen .
+[12/29/17 10:26:49 INFO] PRED SCORE: -9.59	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 111: Martin told CNN that he asked Daley whether his then-boss knew about the potential shuffle .	
+[12/29/17 10:26:49 INFO] PRED 111: Martin sagte CNN , dass er <unk> fragte , ob seine <unk> über das mögliche <unk> Bescheid wusste .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -12.28	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 112: While Daley said he doesn &apos;t think the President &quot; was aware &quot; of the potential change , the former chief of staff admitted that it &apos;s &quot; possible &quot; Obama knew .	
+[12/29/17 10:26:49 INFO] PRED 112: Während <unk> sagte , er glaubt , der Präsident <unk> war <unk> der möglichen Veränderung der potenziellen Veränderung , der ehemalige Chef des Personals zugegeben , dass es <unk> <unk> <unk> Obama wusste .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -23.61	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 113: Martin added that &quot; Double Down &quot; does not definitively answer whether the political probing reached Obama &apos;s desk .	
+[12/29/17 10:26:49 INFO] PRED 113: Martin fügte hinzu , dass <unk> Double Down <unk> nicht endgültig beantwortet , ob die politische Suche Obama <unk> desk erreichte .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -7.20	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 114: Cooper asked Martin whether he seriously thought Obama did not know about the research into dumping Biden from the ticket .	
+[12/29/17 10:26:49 INFO] PRED 114: Cooper fragte Martin , ob er ernsthaft dachte , Obama sei nicht über die Erforschung von <unk> von dem Schein <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -11.34	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 115: &quot; Possibly , &quot; Martin replied .	
+[12/29/17 10:26:49 INFO] PRED 115: <unk> vielleicht , <unk> Martin antwortete .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -5.39	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 116: A day of thanks with the MGV (Male Choral Society) in Dinker	
+[12/29/17 10:26:49 INFO] PRED 116: Ein Tag des Dankes an die <unk> <unk> <unk> <unk> in <unk>	
+[12/29/17 10:26:49 INFO] PRED SCORE: -3.66	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 117: This year the &quot; Friedrich Wilhelm Dinker &quot; MGV issued an invitation to its 165th anniversary celebration , which 52 guests , active singers and their wives were happy to accept .
+[12/29/17 10:26:49 INFO] PRED 117: In diesem Jahr hat die <unk> Friedrich Wilhelm <unk> <unk> <unk> eine Einladung zu ihrem <unk> Jubiläum ausgestellt , die 52 Gäste , aktive Sänger und ihre Ehefrauen bereit waren .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -16.23	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 118: In the clubhouse at the &quot; Witteborg &quot; Inn in Dinker , all those present enjoyed the friendly get-together in the name of music .	
+[12/29/17 10:26:49 INFO] PRED 118: Im Clubhaus am <unk> <unk> <unk> Inn in <unk> , alle Anwesenden genießen die freundliche <unk> im Namen der Musik .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -10.49	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 119: Traditionally , the anniversary celebration is also always the fitting occasion to bestow honours .	
+[12/29/17 10:26:49 INFO] PRED 119: Traditionell ist das Jubiläum auch immer die richtige Gelegenheit , Ehre zu verleihen .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -10.78	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:26:49 INFO] SENT 120: This time around , secretary Rolf Wagener was delighted to receive the special &quot; Singer of the Year &quot; award .	
+[12/29/17 10:26:49 INFO] PRED 120: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:26:49 INFO] PRED SCORE: -13.13	
+[12/29/17 10:26:49 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 121: &quot; Not only have you kept countless records for us , but you have also done so much running around for us , and for this we offer our sincere thanks , &quot; said Choir Chairman Erich Schlotmann .	
+[12/29/17 10:30:56 INFO] PRED 121: <unk> nicht nur haben Sie unzählige Rekorde für uns behalten , aber Sie haben auch so viel laufen für uns , und dafür bieten wir unseren aufrichtigen Dank , <unk> <unk> Erich <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -17.79	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 122: The awards for participation in the performances and choir rehearsals by means of the presentation of &quot; activity posies &quot; , this year went to Choir Director Dieter Schulze , with 44 attendance marks , followed by Honorary Chairman Horst Pier-Ribbert , the Chairman himself , and last year &apos;s &quot; Singer of the Year &quot; Friedrich Winkler , each having attended 42 times .	
+[12/29/17 10:30:56 INFO] PRED 122: Die Auszeichnungen für die Teilnahme an den Aufführungen und Chor - Proben durch die Präsentation der <unk> <unk> <unk> , dieses Jahr ging zum Chor Director Dieter Schulze , mit 44 <unk> , gefolgt von <unk> Horst <unk> , dem Vorsitzenden selbst und im vergangenen Jahr <unk> <unk> Singer von den <unk> Friedrich Winkler , die 42 Mal teilgenommen haben .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -28.95	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 123: Fifth place went to Artur Brückner , responsible for organising music copies .	
+[12/29/17 10:30:56 INFO] PRED 123: Der fünfte Platz war <unk> <unk> , verantwortlich für die Organisation von <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -6.87	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 124: The Board of Directors gave special thanks to the team managed by innkeeper , Ange Pier-Ribbert , which once again delighted those present with a top class menu , and to Gerda Pier-Ribbert for the table decorations .	
+[12/29/17 10:30:56 INFO] PRED 124: Das Board of Directors bedankt sich bei dem Team von <unk> , <unk> <unk> , das wiederum die Anwesenden mit einem Top - <unk> und <unk> <unk> für die <unk> <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -24.69	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 125: The &quot; Friedrich-Wilhelm &quot; MGV meets for its regular choir rehearsals in the clubhouse every Tuesday at 19: 45 .	
+[12/29/17 10:30:56 INFO] PRED 125: Die <unk> <unk> <unk> <unk> trifft sich für ihre regelmäßigen <unk> im Clubhaus jeden Dienstag bei <unk> 45 .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -12.16	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 126: &quot; New voices that love to sing are more than welcome any time , &quot; said Schlotmann .	
+[12/29/17 10:30:56 INFO] PRED 126: <unk> New Stimmen , die lieben , singen zu singen sind mehr als willkommen , <unk> sagte <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -5.94	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 127: NSA revelations boost corporate paranoia about state surveillance	
+[12/29/17 10:30:56 INFO] PRED 127: Die Enthüllungen der <unk> verstärken die <unk> über staatliche Überwachung .
+[12/29/17 10:30:56 INFO] PRED SCORE: -6.89	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 128: On a mild day in late August a German police helicopter buzzed low over the US consulate in Frankfurt , the financial capital of Germany .	
+[12/29/17 10:30:56 INFO] PRED 128: An einem milden Tag Ende August ist ein deutscher <unk> <unk> niedrig über dem US - Konsulat in Frankfurt , dem <unk> Deutschland .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -12.81	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 129: On the instruction of the Office for the Protection of the Constitution (BfV), Germany &apos;s domestic intelligence agency , its mission was to photograph the rooftop of the US outpost , which is located less than 5km from the European Central Bank and Bundesbank .	
+[12/29/17 10:30:56 INFO] PRED 129: Im Auftrag des Amtes für den Schutz der Verfassung <unk> Deutschland <unk> <unk> , seine Mission war es , das Dach des US - <unk> zu fotografieren , was weniger als <unk> von der Europäischen Zentralbank und Bundesbank liegt .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -20.33	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 130: German media say the BfV hoped to identify the presence of listening antennas and the action prompted an exchange between the US and the German foreign ministry in Berlin .	
+[12/29/17 10:30:56 INFO] PRED 130: Deutsche Medien sagen , die <unk> hoffte , die Präsenz von <unk> zu identifizieren und die Aktion zu einem Austausch zwischen den USA und dem deutschen Außenministerium in Berlin zu führen .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -16.80	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 131: James Clapper , US Director of National Intelligence , insisted again in September that the US does not use foreign intelligence capabilities &quot; to steal the trade secrets of foreign companies on behalf of US companies to enhance their international competitiveness or increase their bottom line . &quot;	
+[12/29/17 10:30:56 INFO] PRED 131: James <unk> , der US - Direktor des Nationalen Geheimdienstes , hat im September erneut darauf bestanden , dass die USA keine ausländischen <unk> nutzen , um die <unk> ausländischer Unternehmen im Namen von US - Unternehmen zu stehlen , um ihre internationale Wettbewerbsfähigkeit zu steigern oder ihre <unk> zu erhöhen .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -25.02	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 132: But ever since Edward Snowden , the contractor turned whistleblower , began releasing his treasure trove of US surveillance secrets , European governments and business leaders are no longer sure whether to take the director at his word .	
+[12/29/17 10:30:56 INFO] PRED 132: Doch seit Edward <unk> , der Auftragnehmer <unk> <unk> , begann der <unk> , seine <unk> von US - <unk> zu veröffentlichen , die europäischen Regierungen und <unk> sind nicht mehr sicher , ob sie den Direktor an seinem Wort nehmen .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -22.22	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 133: Reports that the US National Security Agency spied on Brazilian oil company Petrobras and gained access to data held by US cloud providers including Google and Yahoo have ratcheted corporate paranoia about state surveillance to new highs .	
+[12/29/17 10:30:56 INFO] PRED 133: Berichte , die die US National Security Agency <unk> über brasilianische <unk> <unk> und den Zugang zu Daten , die von US - Cloud - Providern , einschließlich Google und Yahoo haben , haben <unk> <unk> über staatliche Überwachung auf neue Höhen <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -22.81	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 134: The final straw came when it was revealed that Chancellor Angela Merkel &apos;s phone had been bugged , possibly for about a decade .	
+[12/29/17 10:30:56 INFO] PRED 134: Der <unk> kam , als es aufgedeckt wurde , dass Kanzlerin Angela Merkel <unk> war , möglicherweise für etwa ein Jahrzehnt .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -11.83	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 135: If Europe &apos;s most powerful person can be targeted , then surely business leaders are also potential targets .	
+[12/29/17 10:30:56 INFO] PRED 135: Wenn Europa die mächtigste Person <unk> kann , können die <unk> auch potenzielle Ziele sein .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -12.08	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 136: Snowden has made transparent the intensive collaboration between US intelligence services and companies .	
+[12/29/17 10:30:56 INFO] PRED 136: <unk> hat die intensive Zusammenarbeit zwischen den US - Geheimdiensten und den Unternehmen transparent gemacht .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -3.67	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 137: I think it &apos;s conceivable that these data are used for mutual benefit .
+[12/29/17 10:30:56 INFO] PRED 137: Ich halte es für denkbar , dass diese Daten zum gegenseitigen Nutzen genutzt werden .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -5.56	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 138: &quot; Germany must wake up , &quot; says Oliver Grün , president of BITMi , which represents small and medium sized German IT companies .	
+[12/29/17 10:30:56 INFO] PRED 138: <unk> Deutschland muss aufwachen , sagt Oliver <unk> , Präsident von <unk> , der kleine und mittlere deutsche IT - Unternehmen vertritt .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -7.89	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 139: German companies believe the US now poses almost as big a risk as China when it comes to industrial espionage and data theft , according to a survey published in July by EY , the consultancy .	
+[12/29/17 10:30:56 INFO] PRED 139: Die deutschen Unternehmen glauben , dass die USA heute fast so groß sind wie China , wenn es um <unk> und <unk> geht , nach einer im Juli von <unk> veröffentlichten Umfrage .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -13.15	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 140: In all the documentation leaked by Mr Snowden , there has , however , been no evidence to date that the US has passed on foreign companies &apos; trade secrets to its own companies .	
+[12/29/17 10:30:56 INFO] PRED 140: In allen Dokumenten , die von Herrn <unk> <unk> wurden , gab es jedoch bisher keine Beweise dafür , dass die USA ausländische Unternehmen <unk> <unk> an ihre eigenen Unternehmen übergeben haben .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -17.21	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 141: Politicians have expressed concern that the EU lacks certain IT and internet capabilities and should strive to reduce its dependence on the US .	
+[12/29/17 10:30:56 INFO] PRED 141: Die Politiker haben Bedenken geäußert , dass die EU an bestimmten IT - und <unk> fehlt und sich bemühen sollte , ihre Abhängigkeit von den USA zu verringern .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -10.78	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 142: Business leaders are sceptical about this .	
+[12/29/17 10:30:56 INFO] PRED 142: Die <unk> sind diesbezüglich skeptisch .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -4.27	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 143: Someone in the German parliament says we should build a German Google .	
+[12/29/17 10:30:56 INFO] PRED 143: Jemand im deutschen Parlament sagt , wir sollten eine deutsche Google bauen .
+[12/29/17 10:30:56 INFO] PRED SCORE: -7.17	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 144: I can only shut my eyes and slowly open them again ...	
+[12/29/17 10:30:56 INFO] PRED 144: Ich kann meine Augen nur verschließen und sie langsam wieder <unk> .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -5.54	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 145: &quot; That &apos;s not the way , &quot; Hasso Plattner , chairman of German business software company SAP , says .	
+[12/29/17 10:30:56 INFO] PRED 145: <unk> That <unk> nicht den Weg , <unk> <unk> <unk> , Vorsitzender deutscher Business Software SAP , sagt .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -10.39	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 146: If one wanted a strong European IT industry , then one shouldn &apos;t have let it die out 20 years ago .	
+[12/29/17 10:30:56 INFO] PRED 146: Wenn man eine starke europäische IT - Industrie will , sollte man sich vor 20 Jahren <unk> lassen .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -9.01	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 147: Everything is subsidised in Germany , from coal , to cars and farmers .	
+[12/29/17 10:30:56 INFO] PRED 147: Alles wird in Deutschland subventioniert , von Kohle bis Autos und Landwirten .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -5.50	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 148: Everything but the IT industry .	
+[12/29/17 10:30:56 INFO] PRED 148: Alles außer der IT - Branche .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -3.05	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 149: Still , the reach and technical sophistication of US spy agencies exposed by the Snowden revelations have come as a shock to some companies who previously thought the biggest surveillance risk was posed by China .	
+[12/29/17 10:30:56 INFO] PRED 149: Dennoch sind die Reichweite und technische Raffinesse der US - amerikanischen US - amerikanischen US - amerikanischen US - US - US - Agenturen ein Schock für einige Unternehmen , die zuvor das größte <unk> von China annahmen .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -23.94	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:30:56 INFO] SENT 150: A big shift is occurring in cloud computing where European executives have become more aware that data stored in the US is subject to that jurisdiction and therefore potentially vulnerable .	
+[12/29/17 10:30:56 INFO] PRED 150: Eine große Verschiebung findet in der Cloud Computing statt , wo europäische Führungskräfte sich bewusst geworden sind , dass die in den USA gespeicherten Daten dieser Gerichtsbarkeit unterliegen und daher potenziell anfällig sind .	
+[12/29/17 10:30:56 INFO] PRED SCORE: -17.36	
+[12/29/17 10:30:56 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 151: According to a survey carried out by the Cloud Security Alliance , a trade body , some 10 per cent of non-US members cancelled plans to use a US-based cloud provider after revelations about the US Prism data mining programme .	
+[12/29/17 10:33:52 INFO] PRED 151: Laut einer von der Cloud Security Alliance durchgeführten Umfrage haben ein <unk> , einige 10 Prozent der <unk> Mitglieder , Pläne zur Verwendung eines <unk> - <unk> nach Enthüllungen über das US - <unk> - <unk> - Programm <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -21.05	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 152: Jim Snabe , co-chief executive at SAP , says: &quot; We see a new question from customers that didn &apos;t come up a year ago - which is where is my data stored and can you guarantee that it stays physically in that jurisdiction . &quot;	
+[12/29/17 10:33:52 INFO] PRED 152: Jim <unk> , <unk> Executive at SAP , <unk> <unk> We see a new question from customers that did <unk> a year ago - where is my data <unk> and can you <unk> that it <unk> <unk> in this <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -12.48	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 153: Many German executives argue that the latest reports are simply confirmation of what they already knew: that powerful states want to steal their most prized secrets and these data must therefore be guarded at all costs .	
+[12/29/17 10:33:52 INFO] PRED 153: Viele deutsche Führungskräfte argumentieren , dass die jüngsten Berichte lediglich bestätigen , was sie bereits <unk> , dass mächtige Staaten ihre <unk> Geheimnisse stehlen wollen und diese Daten daher um jeden Preis bewacht werden müssen .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -14.33	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 154: That economic spying takes place is not a surprise .	
+[12/29/17 10:33:52 INFO] PRED 154: Diese <unk> ist keine Überraschung .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -2.59	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 155: It has always taken place .	
+[12/29/17 10:33:52 INFO] PRED 155: Es hat immer stattgefunden .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -2.79	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 156: &quot; This has been a topic for many years and hasn &apos;t fundamentally changed through the current discussion , &quot; says Kurt Bock , chief executive of chemical maker BASF .	
+[12/29/17 10:33:52 INFO] PRED 156: <unk> Dies war ein Thema für viele Jahre und hat sich grundlegend verändert durch die aktuelle Diskussion , sagt Kurt Bock , Geschäftsführer der chemischen Hersteller BASF .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -12.90	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 157: The Americans spy on us on the commercial and industrial level as we spy on them too , because it is in the national interest to defend our businesses .	
+[12/29/17 10:33:52 INFO] PRED 157: Die Amerikaner <unk> uns auf der kommerziellen und industriellen Ebene , da wir sie auch <unk> , denn es liegt im nationalen Interesse , unsere Unternehmen zu verteidigen .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -10.41	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 158: Corporate leaders are not generally keen to boast about the countermeasures they have taken , in case this hands an advantage to an attacker .	
+[12/29/17 10:33:52 INFO] PRED 158: <unk> sind nicht im Allgemeinen darauf erpicht , sich über die Gegenmaßnahmen zu rühmen , die sie ergriffen haben , falls diese Hände einen Vorteil für einen Angreifer haben .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -16.74	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 159: For large companies , the message has long since been drummed home that picking up a free USB stick at a trade fair , or leaving a laptop unguarded in a hotel room are unwise , to say the least .	
+[12/29/17 10:33:52 INFO] PRED 159: Für große Unternehmen ist die Botschaft seit langem <unk> zu Hause , dass die Abholung eines freien USB - Sticks auf einer Messe oder ein Laptop <unk> in einem Hotelzimmer sind unklug , gelinde gesagt , die wenigsten .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -17.31	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 160: Ulrich Hackenberg , board member at carmaker Audi , says it has been standard practice for years for mobile phones to be collected before board meetings so they cannot be used as remote listening devices .	
+[12/29/17 10:33:52 INFO] PRED 160: Ulrich <unk> , Vorstandsmitglied bei <unk> Audi , sagt , dass es seit Jahren gängige Praxis für Mobiltelefone ist , vor Board Meetings zu sammeln , so dass sie nicht als <unk> genutzt werden können .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -19.29	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 161: Germany &apos;s BfV advises executives to consider using simple prepaid mobiles when on foreign trips because of the risk that smart phones are compromised .	
+[12/29/17 10:33:52 INFO] PRED 161: Deutschland <unk> <unk> berät Führungskräfte bei der Verwendung einfacher Prepaid - Mobiltelefone bei ausländischen Reisen , weil das Risiko , dass Mobiltelefone gefährdet sind , gefährdet sind .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -18.76	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 162: The prepaid mobiles are then thrown away afterwards .	
+[12/29/17 10:33:52 INFO] PRED 162: Das Prepaid - Handy wird dann anschließend <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -7.87	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 163: However , there is concern that small and medium-sized companies remain vulnerable to hacking and surveillance .	
+[12/29/17 10:33:52 INFO] PRED 163: Es gibt jedoch Bedenken , dass kleine und <unk> Unternehmen weiterhin anfällig für Hacking und Überwachung sind .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -5.72	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 164: In Germany , many of these companies are global market leaders in their particular niche .	
+[12/29/17 10:33:52 INFO] PRED 164: In Deutschland sind viele dieser Unternehmen weltweit Marktführer in ihrer jeweiligen Nische .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -4.60	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 165: &quot; Small and medium sized companies often lack the experience , personnel and financial resources to protect corporate secrets effectively against unauthorised access , &quot; the BfV warns in a report .	
+[12/29/17 10:33:52 INFO] PRED 165: <unk> Klein und mittelständische Unternehmen fehlen oft den Erfahrungen , Personal und finanziellen Ressourcen , um <unk> effektiv vor dem unberechtigten Zugriff zu schützen , warnt die <unk> in einem Bericht .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -19.13	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 166: The US warns its own companies about economic espionage by other countries .
+[12/29/17 10:33:52 INFO] PRED 166: Die USA warnen ihre eigenen Unternehmen über <unk> anderer Länder .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -5.04	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 167: The US National Intelligence Estimate in February named France alongside Russia and Israel in a second tier of offenders who engage in hacking for economic intelligence , behind China , according to The Washington Post .	
+[12/29/17 10:33:52 INFO] PRED 167: Die US National Intelligence <unk> im Februar nannte Frankreich neben Russland und Israel in einer zweiten <unk> , die sich an der <unk> für wirtschaftliche Intelligenz , hinter China , nach der Washington Post <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -17.91	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 168: A board member at a German blue-chip company concurred that when it comes to economic espionage , &quot; the French are the worst . &quot;	
+[12/29/17 10:33:52 INFO] PRED 168: Ein Vorstandsmitglied bei einem deutschen <unk> <unk> , der in Bezug auf <unk> die Franzosen <unk> , ist die schlimmste .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -16.86	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 169: Bernard Squarcini , former head of the French internal intelligence agency DCRI , was quoted in an interview this month as saying: &quot; The services know perfectly well that all countries , even as they co-operate in the antiterrorist fight , spy on their allies . &quot;	
+[12/29/17 10:33:52 INFO] PRED 169: Bernard <unk> , ehemaliger Leiter der französischen <unk> <unk> , wurde in diesem Monat in einem Interview zitiert , als <unk> <unk> Die Dienste wissen , dass alle Länder , auch wenn sie im <unk> kämpfen , ihre Verbündeten <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -16.53	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 170: Gechingen: Absolute protection not possible	
+[12/29/17 10:33:52 INFO] PRED 170: <unk> Schutz nicht möglich	
+[12/29/17 10:33:52 INFO] PRED SCORE: -1.39	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 171: &quot; We want to involve the residents in the planning at as early a stage as possible , &quot; said Mayor Jens Häußler , opening the citizen &apos;s information event regarding the flood protection concept in Gechingen .	
+[12/29/17 10:33:52 INFO] PRED 171: <unk> Wir wollen die Bewohner in der Planung so früh wie möglich in die Planung einbeziehen , <unk> sagte Bürgermeister Jens <unk> , Eröffnung der Bürger <unk> Informationen über das <unk> in <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -19.04	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 172: Around 80 participants came to the Gemeindehalle (community hall) to have the planned measures explained to them , to express their concerns and submit ideas .	
+[12/29/17 10:33:52 INFO] PRED 172: Rund 80 Teilnehmer kamen zum <unk> <unk> <unk> , um die geplanten Maßnahmen zu erklären , um ihre Sorgen auszudrücken und Ideen einzureichen .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -11.97	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 173: Häußler made clear: &quot; The final decisions will be made by the members of the Town Council &quot; .	
+[12/29/17 10:33:52 INFO] PRED 173: <unk> <unk> Die endgültigen Entscheidungen werden von den Mitgliedern des <unk> <unk> getroffen .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -8.16	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 174: Häußler commented that the flood that found Gechingen unprepared on 15 May 2009 , was a decisive event in raising the question of protective measures for the future .	
+[12/29/17 10:33:52 INFO] PRED 174: <unk> sagte , dass die Flut , die <unk> <unk> am 15 . Mai 2009 , war ein entscheidendes Ereignis bei der Erhöhung der Frage der Schutzmaßnahmen für die Zukunft .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -13.58	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 175: A river basin study was commissioned in collaboration with the neighbouring community of Aidlingen , which now forms the basis for the flood protection concept in Gechingen .	
+[12/29/17 10:33:52 INFO] PRED 175: In Zusammenarbeit mit der <unk> <unk> wurde eine <unk> in Auftrag gegeben , die heute die Grundlage für das <unk> in <unk> bildet .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -9.39	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 176: &quot; The goal is the protection of as many developed plots of land as possible , &quot; said Häußler .	
+[12/29/17 10:33:52 INFO] PRED 176: <unk> Das Ziel ist der Schutz von so vielen entwickelten Grundstücken wie möglich , <unk> sagte <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -5.65	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 177: The basis for the plans is the need for protection against expected floods , which statistically occurs every 100 years , according to the German Weather Service .	
+[12/29/17 10:33:52 INFO] PRED 177: Die Grundlage für die Pläne ist die Notwendigkeit des Schutzes vor <unk> Überschwemmungen , die statistisch gesehen alle 100 Jahre nach dem deutschen <unk> vorkommen .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -16.29	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 178: Climate change is taken into account in the form of an allowance of 15 per cent .	
+[12/29/17 10:33:52 INFO] PRED 178: Der Klimawandel wird in Form einer <unk> von 15 Prozent berücksichtigt .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -3.59	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 179: In expert circles this is referred to as &quot; HQ 100aKlima &quot; .	
+[12/29/17 10:33:52 INFO] PRED 179: In <unk> wird dies als <unk> <unk> <unk> <unk> bezeichnet .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -4.20	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:33:52 INFO] SENT 180: The masses of water that caused considerable damage in Gechingen in 2009 was equivalent to a 1,000-year flood .	
+[12/29/17 10:33:52 INFO] PRED 180: Die Massen des Wassers , das im Jahr 2009 erhebliche Schäden verursachte , entsprach einem <unk> <unk> .	
+[12/29/17 10:33:52 INFO] PRED SCORE: -10.81	
+[12/29/17 10:33:52 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 181: &quot; There is no such thing as absolute protection , but we can attempt to make a relative improvement , &quot; said Häußler .	
+[12/29/17 10:36:26 INFO] PRED 181: <unk> Es gibt keinen absoluten Schutz , aber wir können versuchen , eine relative Verbesserung zu machen , <unk> sagte <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -6.13	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 182: In order to achieve HQ 100aKlima protection , around four million € must be invested in Gechingen , whereby the town can count on a State subsidy of around 70 per cent .	
+[12/29/17 10:36:26 INFO] PRED 182: Um das <unk> <unk> zu schützen , müssen rund vier Millionen Euro in <unk> investiert werden , wobei die Stadt auf eine staatliche Subvention von etwa 70 Prozent zählen kann .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -11.75	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 183: However , Häußler indicated that the funding would only be provided if an overall concept is developed .	
+[12/29/17 10:36:26 INFO] PRED 183: <unk> wies jedoch darauf hin , dass die Finanzierung nur dann bereitgestellt wird , wenn ein Gesamtkonzept entwickelt wird .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -8.91	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 184: In order to develop such a concept , the town is reliant on the cooperation of its citizens .	
+[12/29/17 10:36:26 INFO] PRED 184: Um ein solches Konzept zu entwickeln , ist die Stadt auf die Zusammenarbeit ihrer Bürger angewiesen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -4.10	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 185: A complex planning and approval procedure must be completed .	
+[12/29/17 10:36:26 INFO] PRED 185: Ein komplexes Planungs - und Genehmigungsverfahren muss abgeschlossen werden .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -4.33	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 186: In a best case scenario , implementation could begin in 2016 .	
+[12/29/17 10:36:26 INFO] PRED 186: Im besten Fall könnte die Umsetzung 2016 beginnen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -2.97	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 187: Among other measures , the protection concept , which (we reported) has already been presented to the Town Council during the past week , plans local measures in the tributary to the River Irm , running from the Stammheim Valley .	
+[12/29/17 10:36:26 INFO] PRED 187: Unter anderem wurde das <unk> , das <unk> <unk> bereits in der vergangenen Woche dem Stadtrat vorgestellt hat , vor Ort in den <unk> des Flusses <unk> , der vom <unk> - Tal betrieben wird , <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -34.54	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 188: In conjunction with the presentation of the flood protection concept , the participants made use of the opportunity to submit their concerns .	
+[12/29/17 10:36:26 INFO] PRED 188: In Verbindung mit der Präsentation des <unk> nutzten die Teilnehmer die Möglichkeit , ihre Anliegen einzureichen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -9.24	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 189: Among others , the question was raised as to why embankments and detention reservoirs are no longer planned to protect the location .	
+[12/29/17 10:36:26 INFO] PRED 189: Unter anderem wurde die Frage gestellt , warum <unk> und <unk> nicht mehr geplant sind , um den Standort zu schützen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -6.76	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 190: Gregor Kühn , technical planner at the commissioned engineering company , Hügelsheim-based &apos; Wald und Corbe &apos; , who presented the concept , emphasised that it required the interplay of all proposed measures , in order that their sum might achieve the desired goal .	
+[12/29/17 10:36:26 INFO] PRED 190: Gregor Kühn , technischer Planer bei der <unk> , <unk> <unk> Wald und <unk> <unk> , die das Konzept vorgestellt hat , betonte , dass das Zusammenspiel aller vorgeschlagenen Maßnahmen das Zusammenspiel aller vorgeschlagenen Maßnahmen erfordert , um das gewünschte Ziel zu erreichen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -20.31	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 191: Furthermore , the most economic solution must be found , said Joachim Wald of Wald und Corbe .	
+[12/29/17 10:36:26 INFO] PRED 191: Außerdem muss die wirtschaftliche Lösung gefunden werden , sagte Joachim Wald Wald und <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -6.05	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 192: There was resentment among local residents of the old town , who have repeatedly to suffer as a result of the overflowing of the canal network , even during normal thunderstorms .	
+[12/29/17 10:36:26 INFO] PRED 192: Es gab Ressentiments unter den Bewohnern der alten Stadt , die immer wieder unter dem <unk> des <unk> leiden , auch während normaler Gewitter .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -16.72	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 193: The problem is known to the administrative department and initial measures have already been taken .	
+[12/29/17 10:36:26 INFO] PRED 193: Das Problem ist der <unk> bekannt und die ersten Maßnahmen wurden bereits ergriffen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -7.76	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 194: However , Häußler indicated that the guidelines for canal systems are different to those for flood protection , and these must not be confused .	
+[12/29/17 10:36:26 INFO] PRED 194: Aber <unk> deutete an , dass die Leitlinien für <unk> anders sind als für <unk> , und diese dürfen nicht verwechselt werden .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -12.42	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 195: The town is obliged to design the canal network in such a way that it can withstand rainfall events every two to three years .	
+[12/29/17 10:36:26 INFO] PRED 195: Die Stadt ist verpflichtet , das <unk> so zu gestalten , dass sie die <unk> jedes zwei bis drei Jahre überstehen kann .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -8.68	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 196: To make the sewerage channels wider would gobble up millions .	
+[12/29/17 10:36:26 INFO] PRED 196: Um die <unk> breiter zu machen , würde <unk> Millionen <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -8.85	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 197: $ 325m rescue package for Tassie health	
+[12/29/17 10:36:26 INFO] PRED 197: <unk> <unk> für <unk>	
+[12/29/17 10:36:26 INFO] PRED SCORE: -3.02	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 198: The Federal Government insists a $ 325 million rescue package for Tasmania &apos;s ailing health system has tough conditions attached that will ensure the State Government can &apos;t waste the funds .	
+[12/29/17 10:36:26 INFO] PRED 198: Die Bundesregierung beharrt auf einem <unk> von 325 Mio . Dollar für <unk> <unk> , das <unk> <unk> hat , das die Regierung <unk> , die Gelder <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -24.94	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 199: Federal Health Minister Tanya Plibersek has announced the Commonwealth is taking &quot; urgent action &quot; to head off a crisis caused by the island state &apos;s aging population , higher rates of chronic disease and system constraints .	
+[12/29/17 10:36:26 INFO] PRED 199: Der <unk> <unk> <unk> hat angekündigt , dass das Commonwealth <unk> dringende Maßnahmen ergreift , um eine Krise zu bewältigen , die durch den <unk> <unk> alternde Bevölkerung verursacht wird , höhere <unk> chronischer Krankheiten und <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -26.67	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 200: The funding , over four years , was decided after government consultations with Tasmanian independent MP Andrew Wilkie .	
+[12/29/17 10:36:26 INFO] PRED 200: Die Finanzierung , über vier Jahre , wurde nach <unk> mit unabhängigen MP Andrew <unk> entschieden .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -7.77	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 201: &quot; The Government has come up with an emergency rescue package we believe will address the unique challenges faced by the state , &quot; Ms Plibersek said today .	
+[12/29/17 10:36:26 INFO] PRED 201: <unk> The government has come up with a <unk> <unk> package we believe that will <unk> the unique <unk> facing the state , <unk> Mrs <unk> <unk> today .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -12.18	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 202: The $ 325 million package includes a $ 31 million elective surgery blitz .	
+[12/29/17 10:36:26 INFO] PRED 202: Das $ 325 Millionen Paket beinhaltet einen <unk> von $ 31 Millionen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -9.44	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 203: An additional 2600 operations including orthopedic and cataract surgery will help clear a backlog .	
+[12/29/17 10:36:26 INFO] PRED 203: Ein weiteres 2600 - Operationen , wie <unk> und <unk> Chirurgie , wird einen deutlichen Rückstand aufweisen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -16.43	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 204: There &apos;s also money for walk-in clinics in Hobart and Launceston , better after-hospital care , medical specialist training , mental health services and the rollout of personal electronic health record systems in local hospitals .	
+[12/29/17 10:36:26 INFO] PRED 204: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -13.50	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 205: &quot; These investments respond to the ideas that front-line clinicians have told me will be the best ways to tend to Tasmania &apos;s health system , &quot; Ms Plibersek said .	
+[12/29/17 10:36:26 INFO] PRED 205: <unk> Diese Investitionen reagieren auf die Ideen , die <unk> <unk> mir mitgeteilt haben , die besten Wege , um <unk> Gesundheitssystem zu <unk> , sagte <unk> Frau <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -16.12	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 206: The minister insisted the Tasmanian Government would face a strict reporting and accountability regime .	
+[12/29/17 10:36:26 INFO] PRED 206: Der Minister hat die <unk> Regierung mit einer strengen <unk> - und <unk> <unk> .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -9.31	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 207: The state would have to maintain current funding levels in order to receive Commonwealth cash and report monthly on where it was spending the extra funds .	
+[12/29/17 10:36:26 INFO] PRED 207: Der Staat müsste die derzeitigen <unk> beibehalten , um Bargeld Bargeld zu erhalten und monatliche Berichte über die Ausgaben zu erhalten .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -16.91	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 208: A three-person commission will be set up to ensure the state is delivering services as effectively and efficiently as possible .	
+[12/29/17 10:36:26 INFO] PRED 208: Eine <unk> - Kommission wird eingerichtet , um sicherzustellen , dass der Staat Dienstleistungen so effektiv und effizient wie möglich erbringt .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -11.04	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 209: Mr Wilkie today said the $ 325 million would count for little &quot; unless it &apos;s followed by genuine reform to put Tasmania &apos;s public health system on a more sustainable footing . &quot;	
+[12/29/17 10:36:26 INFO] PRED 209: Herr <unk> hat heute gesagt , dass die Höhe der 325 Millionen Dollar für wenig <unk> zählen würde , wenn es nicht <unk> , dass eine echte Reform durchgeführt wird , um das System der öffentlichen Gesundheit auf eine nachhaltigere Grundlage zu stellen .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -29.16	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:36:26 INFO] SENT 210: He nevertheless praised the Government for responding to his request for urgent assistance which he first raised with the Prime Minister at the beginning of May .	
+[12/29/17 10:36:26 INFO] PRED 210: Dennoch lobte er die Regierung , um auf seine Forderung nach Soforthilfe zu reagieren , die er zunächst mit dem Premierminister Anfang Mai angesprochen hat .	
+[12/29/17 10:36:26 INFO] PRED SCORE: -13.01	
+[12/29/17 10:36:26 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 211: &quot; I &apos;m hopeful the federal assistance package will go a long way towards taking the state &apos;s public health system off the critical list , &quot; Mr Wilkie said .	
+[12/29/17 10:38:59 INFO] PRED 211: <unk> I <unk> <unk> the <unk> <unk> package will go a long way to take the state <unk> public health system off the critical list , <unk> Mr <unk> said .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -6.39	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 212: According to the State Government these additional elective procedures will largely reverse the recent cuts .	
+[12/29/17 10:38:59 INFO] PRED 212: Gemäß der staatlichen Regierung werden diese zusätzlichen <unk> die jüngsten Kürzungen weitgehend umkehren .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -8.47	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 213: But federal Opposition health spokesman Peter Dutton believes today &apos;s announcement is a &quot; band-aid solution . &quot;	
+[12/29/17 10:38:59 INFO] PRED 213: Aber der Sprecher der <unk> , Peter <unk> , glaubt heute , dass <unk> eine <unk> <unk> Lösung ist .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -14.78	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 214: &quot; The reason we are here is that the Labor State Government ripped $ 430 million out of its health system , &quot; he told ABC TV .	
+[12/29/17 10:38:59 INFO] PRED 214: <unk> The reason we are here that the <unk> State Government <unk> $ 430 million out of its health system , <unk> he told ABC TV .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -7.71	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 215: You can &apos;t have a state government ripping out almost half-a-billion dollars and the Commonwealth put in $ 300 million and pretend it &apos;s a good news day .	
+[12/29/17 10:38:59 INFO] PRED 215: Sie können <unk> haben eine staatliche Regierung , die fast <unk> Dollar und das Commonwealth in $ 300 Millionen und so tun , als <unk> eine gute Nachricht Tag .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -18.03	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 216: Mr Dutton called on Ms Plibersek to guarantee that not one dollar out of the rescue package would be spent on additional bureaucracy .	
+[12/29/17 10:38:59 INFO] PRED 216: Herr <unk> forderte Frau <unk> auf , sicherzustellen , dass nicht ein Dollar aus dem Rettungspaket für zusätzliche Bürokratie ausgegeben wird .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -5.56	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 217: Mozambique security concerns mount as powerful personalities clash	
+[12/29/17 10:38:59 INFO] PRED 217: Die Sicherheit von Mosambik ist als einflussreiche Persönlichkeiten <unk> .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -8.65	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 218: With a statue of Samora Machel , Mozambique &apos;s founding president , staring down on them , thousands of people gathered in central Maputo to chant peace slogans in a rare public demonstration .	
+[12/29/17 10:38:59 INFO] PRED 218: Mit einer Statue von <unk> <unk> gründete Mosambik <unk> den Präsidenten , <unk> sie auf sie , Tausende von Menschen versammelten sich in <unk> , um <unk> in einer seltenen Öffentlichkeit zu singen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -15.13	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 219: &quot; We want peace back; we want stability , &quot; said Vanessa de Sousa , chief executive of an investment company .	
+[12/29/17 10:38:59 INFO] PRED 219: <unk> Wir wollen Frieden <unk> wollen wir Stabilität , <unk> sagte Vanessa de <unk> , Chef Executive einer <unk> .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -7.25	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 220: Fearful about the future of her country , she swapped her corporate attire for a T-shirt emblazoned with &quot; we demand security &quot; in Portuguese as she joined the crowds in the capital &apos;s Independence Square on Thursday .	
+[12/29/17 10:38:59 INFO] PRED 220: <unk> über die Zukunft ihres Landes , <unk> sie ihre <unk> für eine <unk> <unk> mit <unk> wir fordern Sicherheit <unk> in Portugiesisch als sie trat den Massen in der Hauptstadt <unk> Independence Square am Donnerstag .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -16.92	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 221: For two weeks , there have been almost daily reports of clashes between government forces and Renamo , some of the worst skirmishes since a peace deal more than 20 years ago .	
+[12/29/17 10:38:59 INFO] PRED 221: Seit zwei Wochen gibt es fast täglich Berichte über Zusammenstöße zwischen staatlichen Kräften und <unk> , einige der schlimmsten <unk> seit einem Friedensabkommen vor mehr als 20 Jahren .
+[12/29/17 10:38:59 INFO] PRED SCORE: -10.92	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 222: Renamo was once a notorious rebel movement , initially backed by white-ruled Rhodesia and then South Africa &apos;s apartheid government as part of efforts to destabilise the country &apos;s independent government .	
+[12/29/17 10:38:59 INFO] PRED 222: <unk> war einst eine berühmte <unk> - Bewegung , die zunächst von <unk> <unk> unterstützt wurde und dann die Apartheid - Regierung Südafrikas als Teil der Bemühungen zur Destabilisierung des Landes <unk> unabhängige Regierung unterstützte .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -20.95	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 223: After a 1992 peace deal , it became an opposition party .	
+[12/29/17 10:38:59 INFO] PRED 223: Nach einem Friedensabkommen von 1992 wurde es zu einer Oppositionspartei .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -3.76	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 224: Analysts believe the country is unlikely to slide back into full-blown conflict , but recent events have unnerved foreign investors and locals .	
+[12/29/17 10:38:59 INFO] PRED 224: Analysten glauben , dass es unwahrscheinlich ist , dass das Land in <unk> Konflikte <unk> , aber die jüngsten Ereignisse haben ausländische Investoren und Einheimische <unk> .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -10.23	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 225: The stakes are high for the fast-growing economy as the discovery of huge offshore gas reserves and coal deposits in the northwest could bring in more than $ 50bn of investment over the next few next years from companies including Rio Tinto , Vale of Brazil , Eni of Italy and Anadarko of the US .	
+[12/29/17 10:38:59 INFO] PRED 225: Der Einsatz ist hoch für die <unk> Wirtschaft als die Entdeckung riesiger Offshore - <unk> und <unk> im Nordwesten könnten in den nächsten Jahren mehr als <unk> von Investitionen in die nächsten Jahre von Unternehmen einschließlich Rio <unk> , Vale of Brasilien und <unk> der USA bringen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -21.36	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 226: The ruling Frelimo party , the dominant political force since 1975 , and Renamo blame each other for the tension .	
+[12/29/17 10:38:59 INFO] PRED 226: Die regierende <unk> Partei , die dominante politische Kraft seit 1975 , und die <unk> Schuld für die Spannung .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -9.76	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 227: Renamo says the government initiated the latest clashes by launching an attack on its members in Sofala province , traditionally a Renamo stronghold , on October 17 .	
+[12/29/17 10:38:59 INFO] PRED 227: <unk> sagt , die Regierung initiierte die jüngsten Zusammenstöße durch die Einleitung eines Angriffs auf seine Mitglieder in der Provinz <unk> , traditionell eine <unk> Hochburg , am 17 . Oktober .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -15.68	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 228: Assaults on the former rebels then escalated as government forces attacked Renamo bases and attempted to kill Afonso Dhlakama , the group &apos;s leader , Fernando Mazanga , Renamo &apos;s spokesman , told the Financial Times .	
+[12/29/17 10:38:59 INFO] PRED 228: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -18.65	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 229: The government blames Renamo for triggering the clashes , accusing it of attacking soldiers .	
+[12/29/17 10:38:59 INFO] PRED 229: Die Regierung beschuldigt <unk> , die Konflikte auszulösen , indem sie sie beschuldigt , Soldaten anzugreifen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -11.01	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 230: President Armando Guebuza has sought to play down concerns about instability .	
+[12/29/17 10:38:59 INFO] PRED 230: Präsident <unk> <unk> hat versucht , Bedenken über die Instabilität zu spielen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -6.08	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 231: Mr Guebuza told AFP , the French news agency , on Wednesday that Mr Dhlakama saw himself as a &quot; loser &quot; who wanted to use &quot; whatever remains of his forces to try to prove that he can impose on the government his own decisions . &quot;	
+[12/29/17 10:38:59 INFO] PRED 231: Herr <unk> sagte AFP , die französische Nachrichtenagentur am Mittwoch , in der sich Herr <unk> als <unk> Verlierer <unk> , der <unk> nach wie vor von seinen Kräften zu versuchen , zu beweisen , dass er der Regierung seine eigenen Entscheidungen aufzwingen kann .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -28.96	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 232: Both Frelimo and Renamo insist they want to avoid war .	
+[12/29/17 10:38:59 INFO] PRED 232: Sowohl <unk> als auch <unk> bestehen darauf , dass sie Krieg vermeiden wollen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -5.73	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 233: But concerns have grown after Mr Mazanga was quoted as saying Renamo was abandoning the 1992 peace accord .	
+[12/29/17 10:38:59 INFO] PRED 233: Aber Bedenken haben sich nach dem Zitat von Herrn <unk> geäußert , da <unk> das Friedensabkommen von 1992 aufgibt .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -16.21	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 234: He told the FT that he meant the agreement was no longer being respected by Frelimo .	
+[12/29/17 10:38:59 INFO] PRED 234: Er sagte der Financial Times , dass er das Abkommen nicht mehr von <unk> respektiert .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -9.19	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 235: &quot; Our vision is to come back to negotiations , but with seriousness , &quot; Mr Mazanga said .	
+[12/29/17 10:38:59 INFO] PRED 235: <unk> Unsere Vision ist es , auf Verhandlungen zurückzukommen , aber mit Ernsthaftigkeit , <unk> Herr <unk> sagte .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -9.54	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 236: Previous talks between the parties have done little to ease tensions fuelled by a series of clashes this year .	
+[12/29/17 10:38:59 INFO] PRED 236: Frühere Gespräche zwischen den Parteien haben wenig unternommen , um die Spannungen , die durch eine Reihe von Konflikten in diesem Jahr geschürt werden , zu lindern .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -13.10	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 237: &quot; It &apos;s two big men (Guebuza and Dhlakama) butting heads together , &quot; said Joseph Hanlon , a lecturer at the Open University and Mozambique expert .	
+[12/29/17 10:38:59 INFO] PRED 237: <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -13.86	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 238: Neither of them are good negotiators and neither of them are prepared to make the kind of concessions that are necessary .	
+[12/29/17 10:38:59 INFO] PRED 238: Keiner von ihnen ist gute Unterhändler , und beide sind nicht bereit , die erforderlichen Zugeständnisse zu machen .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -9.25	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 239: Renamo , which has been pushing for electoral reforms , had already said that it would boycott municipal elections due in November .	
+[12/29/17 10:38:59 INFO] PRED 239: <unk> , die auf <unk> drängen , hatte bereits gesagt , dass sie die Kommunalwahlen im November boykottieren würde .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -11.78	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:38:59 INFO] SENT 240: Presidential and parliamentary polls are scheduled for next year .	
+[12/29/17 10:38:59 INFO] PRED 240: <unk> und parlamentarische Umfragen sind für nächstes Jahr geplant .	
+[12/29/17 10:38:59 INFO] PRED SCORE: -5.60	
+[12/29/17 10:38:59 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 241: Some commentators have interpreted its use of force as the attempt of an ailing movement to win concessions and financial spoils from the government .	
+[12/29/17 10:41:08 INFO] PRED 241: Einige Kommentatoren haben ihre Gewaltanwendung als den Versuch einer <unk> Bewegung verstanden , um Zugeständnisse und finanzielle Beute der Regierung zu gewinnen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -11.33	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 242: Renamo &apos;s share of the vote has been declining since 1992 , while a newer party , the Democratic Movement of Mozambique (MDM) which was formed by a former Renamo member , is expected to improve its showing at the elections .	
+[12/29/17 10:41:08 INFO] PRED 242: <unk> <unk> ist seit 1992 rückläufig , während eine neuere Partei , die Demokratische Bewegung <unk> <unk> , die von einem ehemaligen <unk> - Mitglied gebildet wurde , seine Präsenz bei den Wahlen verbessern wird .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -19.59	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 243: Mr Mazanga says Mr Guebuza - who is due to step down when his second term ends next year - wants to destroy the country &apos;s democracy .	
+[12/29/17 10:41:08 INFO] PRED 243: Herr <unk> sagt , Herr <unk> - der auf Schritt und Tritt <unk> , wenn seine zweite Amtszeit im nächsten Jahr endet - will das Land <unk> Demokratie zerstören .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -17.95	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 244: &quot; He does not want multi-party democracy , he does not want transparent elections he does not want peace because he does not want to leave the presidency , &quot; Mr Mazanga said .	
+[12/29/17 10:41:08 INFO] PRED 244: Er will keine <unk> Demokratie , er will keine transparenten Wahlen , er will keinen Frieden , weil er die Präsidentschaft nicht verlassen will , Herrn <unk> sagte .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -11.95	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 245: It is unclear how much capacity Renamo has , but it has carried out disruptive hit-and-run attacks on police stations and vehicles on a key north-south highway .	
+[12/29/17 10:41:08 INFO] PRED 245: Es ist unklar , wie viel Kapazität <unk> hat , aber es hat <unk> <unk> Angriffe auf <unk> und Fahrzeuge auf einer zentralen <unk> Autobahn durchgeführt .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -10.71	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 246: Most of the skirmishes have taken place in Sofala province , which is several hundred kilometres north of Maputo , but hosts Beira , the port that miners , including Rio Tinto and Vale , rely on to export coal .	
+[12/29/17 10:41:08 INFO] PRED 246: Die meisten der <unk> haben in der Provinz <unk> stattgefunden , die mehrere hundert Kilometer nördlich von <unk> ist , aber Gastgeber <unk> , der Hafen , der <unk> , einschließlich Rio <unk> und Vale , auf die Kohle exportieren .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -17.40	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 247: In June , Rio suspended its use of the railway for about a week after Renamo threatened to attack the line .	
+[12/29/17 10:41:08 INFO] PRED 247: Im Juni <unk> Rio seine Nutzung der Eisenbahn für eine Woche nach <unk> drohte , die Linie anzugreifen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -10.19	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 248: Mr Mazanga was coy when asked about whether Renamo would repeat this threat .
+[12/29/17 10:41:08 INFO] PRED 248: Herr <unk> war <unk> , als er fragte , ob <unk> diese Bedrohung wiederholen würde .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -8.42	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 249: Renamo wanted to &quot; warn the international community that things were not going well in Mozambique , &quot; Mr Mazanga said .	
+[12/29/17 10:41:08 INFO] PRED 249: <unk> wollte die internationale Gemeinschaft warnen , dass die Dinge in Mosambik , <unk> Herrn <unk> , nicht gut waren .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -9.10	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 250: The instability has added to frustrations with the government , says Fernando Lima , head of Mediacoop , an independent media company , with many people also concerned about corruption , the slow pace of development and a recent spate of kidnappings .	
+[12/29/17 10:41:08 INFO] PRED 250: Die Instabilität hat zu Frustrationen mit der Regierung hinzugefügt , sagt Fernando Lima , Leiter von <unk> , eine unabhängige <unk> mit vielen Menschen auch über Korruption , das langsame Tempo der Entwicklung und eine jüngste Welle von Entführungen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -17.60	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 251: &quot; People think the ones responsible for the future of the country are the government and the president , and he should be the one to find solutions for the problems , &quot; he says .
+[12/29/17 10:41:08 INFO] PRED 251: <unk> Menschen denken , dass die Verantwortlichen für die Zukunft des Landes sind die Regierung und der Präsident , und er sollte der einzige , um Lösungen für die Probleme zu finden , <unk> er sagt .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -13.99	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 252: Omar Sultuane , a demonstrator , said people just wanted stability .	
+[12/29/17 10:41:08 INFO] PRED 252: Omar <unk> , ein <unk> , sagte , Menschen wollten Stabilität .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -5.50	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 253: &quot; No one cares about Renamo and Frelimo , they just want peace again , they want free access to the roads , &quot; he said .	
+[12/29/17 10:41:08 INFO] PRED 253: <unk> Niemand kümmert sich um <unk> und <unk> , sie wollen nur wieder Frieden , sie wollen freien Zugang zu den Straßen , <unk> er sagte .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -8.91	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 254: Schools urged to focus more on maths , spelling and grammar	
+[12/29/17 10:41:08 INFO] PRED 254: Schulen drängten darauf , sich stärker auf Mathematik , <unk> und Grammatik zu konzentrieren .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -5.84	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 255: English literature courses will require pupils to study at least one Shakespeare play , a 19th century novel , Romantic poetry and contemporary British fiction from 1914 onwards .	
+[12/29/17 10:41:08 INFO] PRED 255: Die englische Literatur erfordert Schüler , mindestens ein Shakespeare - Spiel , ein <unk> Jahrhundert Roman , <unk> Poesie und zeitgenössische britische Fiktion ab 1914 zu studieren .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -17.29	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 256: The exam will also feature &quot; unseen texts &quot; to encourage wider reading;	
+[12/29/17 10:41:08 INFO] PRED 256: Auch die Prüfung wird <unk> Texte <unk> , um breitere <unk> anzuregen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -11.84	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 257: A combined English literature and language course will be scrapped .	
+[12/29/17 10:41:08 INFO] PRED 257: Eine kombinierte englische Literatur und <unk> wird <unk> .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -5.91	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 258: From 2015 , pupils will be required to take a standalone GCSE in language , with strong incentives to choose English literature as a separate qualification .	
+[12/29/17 10:41:08 INFO] PRED 258: Ab 2015 werden die Schüler eine eigenständige <unk> in Sprache benötigen , mit starken Anreizen , englische Literatur als eigenständige Qualifikation zu wählen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -14.41	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 259: The Department for Education is due to release the new syllabuses in English and maths tomorrow - the first subjects to undergo a radical overhaul .	
+[12/29/17 10:41:08 INFO] PRED 259: Die Abteilung für Bildung ist auf die Veröffentlichung der neuen <unk> in Englisch und Mathematik morgen - die ersten Themen einer radikalen Überarbeitung .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -14.87	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 260: It will make changes in other core subjects next year .	
+[12/29/17 10:41:08 INFO] PRED 260: Sie wird im nächsten Jahr Änderungen in anderen <unk> vornehmen .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -5.96	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 261: In a separate move , Ofqual , the exams regulator , will unveil a shake-up of the structure of GCSEs , with a new grading system and less coursework .	
+[12/29/17 10:41:08 INFO] PRED 261: In einem separaten Schritt wird <unk> , die <unk> , eine <unk> der Struktur von <unk> vorstellen , mit einem neuen <unk> und weniger <unk> .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -13.30	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 262: Speaking in the summer , Michael Gove , the Education Secretary , said there was a &quot; widespread consensus that we need to reform our examination system to restore public confidence , &quot; insisting GCSEs would be &quot; more challenging , more ambitious and more rigorous . &quot;	
+[12/29/17 10:41:08 INFO] PRED 262: Im Sommer sagte Michael <unk> , dass es einen <unk> Konsens gab , dass wir unser <unk> reformieren müssen , um das Vertrauen der Öffentlichkeit wiederherzustellen , <unk> zu fordern und <unk> zu fordern .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -16.71	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 263: Studies show that English schools devote less time to maths - 116 hours a year or three hours a week during term time - than in most countries .	
+[12/29/17 10:41:08 INFO] PRED 263: Studien zeigen , dass englische Schulen weniger Zeit für Mathematik - 116 Stunden pro Jahr oder drei Stunden pro Woche während der Amtszeit - als in den meisten Ländern .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -9.76	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 264: By comparison , Australian schools provide an average of 143 hours a year and pupils do around 138 hours in Singapore .	
+[12/29/17 10:41:08 INFO] PRED 264: Im Vergleich dazu bieten die australischen Schulen durchschnittlich 143 Stunden pro Jahr und Schüler rund 138 Stunden in Singapur .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -7.01	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 265: While there will be no formal requirement to devote more of the timetable to maths , Coalition sources said the extensive maths GCSE - combined with more weighting for the subject in league tables - was likely to encourage schools to provide extra teaching .	
+[12/29/17 10:41:08 INFO] PRED 265: Zwar wird es keine formale Anforderung geben , mehr von dem Zeitplan zur Mathematik zu verwenden , erklärten <unk> , die umfangreiche Mathematik - <unk> - zusammen mit mehr Gewichtung für das Thema in Ranglisten - war wahrscheinlich , Schulen zu ermutigen , zusätzliche Lehre zu bieten .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -30.62	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 266: The syllabus will place a greater focus on &quot; real world problems , &quot; including financial mathematics .	
+[12/29/17 10:41:08 INFO] PRED 266: Der Lehrplan legt einen größeren Fokus auf <unk> realer Probleme , <unk> inklusive finanzieller Mathematik .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -11.01	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 267: 2014 is to be a year of celebration in Geisingen	
+[12/29/17 10:41:08 INFO] PRED 267: 2014 ist in <unk> ein <unk>	
+[12/29/17 10:41:08 INFO] PRED SCORE: -3.90	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 268: The anniversary celebrations in the town of Geisingen , to mark the 1,250th	
+[12/29/17 10:41:08 INFO] PRED 268: Jahrestag der <unk> in <unk> , um die <unk> zu markieren	
+[12/29/17 10:41:08 INFO] PRED SCORE: -5.29	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 269: anniversary of the first documented mention of the town , are drawing closer .	
+[12/29/17 10:41:08 INFO] PRED 269: Jahrestag der ersten dokumentierten Erwähnung der Stadt .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -4.51	
+[12/29/17 10:41:08 INFO] 	
+[12/29/17 10:41:08 INFO] SENT 270: When the year comes to an end in just eight weeks , the anniversary year will be upon us .	
+[12/29/17 10:41:08 INFO] PRED 270: Wenn das Jahr zu einem Ende in nur acht Wochen kommt , wird das <unk> auf uns sein .	
+[12/29/17 10:41:08 INFO] PRED SCORE: -11.91	
+[12/29/17 10:41:08 INFO] 	
+^C/home/philip/code/torch/install/bin/luajit: /home/philip/code/torch/install/share/lua/5.1/nn/Linear.lua:67: interrupted!
+stack traceback:
+	/home/philip/code/torch/install/share/lua/5.1/nn/Linear.lua:67: in function 'func'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:345: in function 'neteval'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:382: in function 'func'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:345: in function 'neteval'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:382: in function 'updateOutput'
+	./onmt/modules/Network.lua:16: in function 'func'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:345: in function 'neteval'
+	...lip/code/torch/install/share/lua/5.1/nngraph/gmodule.lua:382: in function 'forward'
+	./onmt/modules/Decoder.lua:405: in function 'forwardOne'
+	./onmt/translate/DecoderAdvancer.lua:111: in function 'update'
+	./onmt/translate/BeamSearcher.lua:75: in function 'search'
+	./onmt/translate/Translator.lua:476: in function 'translateBatch'
+	./onmt/translate/Translator.lua:614: in function 'translate'
+	translate.lua:218: in function 'main'
+	translate.lua:345: in main chunk
+	[C]: in function 'dofile'
+	...code/torch/install/lib/luarocks/rocks/trepl/scm-1/bin/th:150: in main chunk
+	[C]: at 0x00405d50
+
+shell returned 1
+
+Interrupt: Press ENTER or type command to continue
+philip@tenofdiamonds:~/Dropbox/ubuntu/OpenNMT$ 
