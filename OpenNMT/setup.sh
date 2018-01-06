@@ -6,7 +6,7 @@
 
 if [ "$1" == "--all" ]
 then
-	git clone https://github.com/torch/distro.git ~/torch --recursive
+	git clone https://github.com/torch/distro.git ~/code/torch --recursive
 	cd ~/code/torch; bash install-deps;
 	./install.sh
 
@@ -15,8 +15,13 @@ then
 	# luarocks didn't work implying .bashrc hadn't really been sourced.
 fi
 
-luarocks install tds
-luarocks install bit32 
+sudo apt install luarocks
+cd ~/code/torch
+sudo luarocks install tds
+sudo luarocks install bit32 
+#Note: If for any reason luarocks can't find one of these, path it directly
+# to torch/install/bin/luarocks.
+# https://github.com/torch/nngraph/issues/52
 
 cd ~/code
 git clone https://github.com/OpenNMT/OpenNMT
