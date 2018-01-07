@@ -1,7 +1,11 @@
 ########################################
-#This shell script represents all the "initial setup" needed to get my new 
-# Ubuntu 16
-# outfitted with everything I need for productive work.
+#This shell script should represent all the "initial setup" needed to get my 
+# new Ubuntu 16 outfitted with everything I need for productive work.
+#The line between essential and nonessential is blurry, but the latter should
+# get bumped to later files.
+
+BASE_DIR=~/u
+cd $BASE_DIR
 
 clone_dissertation_repos()
 {
@@ -17,8 +21,16 @@ clone_dissertation_repos()
 
 install_and_configure_vim()
 {
-	#TODO - find the .vimrc and .viminfo files and copy them to right place
-	pwd
+  echo "Copying my standard config files."
+	cp ~/.vimrc ~/.vimrc-backup
+	cp ~/.viminfo ~/.viminfo-backup
+	cp CONFIG-FILES/.vim* ~
+  if [ `command -v vim` = '' ]
+  then
+    echo "I should get around to installing vim. TODO."
+  else
+    echo "vim is already installed."
+  fi
 }
 
 ################

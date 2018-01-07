@@ -5,6 +5,8 @@
 #http://torch.ch/docs/getting-started.html
 ########################################
 
+#-model /home/philip/code/__local/OpenNMT/pretrained/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7 -src /home/philip/code/OpenNMT/data/src-test.txt -output /home/philip/u/OpenNMT/zb-output.txt -log_level DEBUG
+
 log_disk_space() {
 	FN=diskspace-before-cltorch.txt
 	date '+%Y/%m/%d_%H:%M:%S' >> $FN
@@ -12,7 +14,7 @@ log_disk_space() {
 }
 PRETRAINED_DIR=~/code/__local/OpenNMT/pretrained
 #At one point that wasn't working so I replaced it with this....
-PRETRAINED_DIR=~/u/OpenNMT/pretrained
+#PRETRAINED_DIR=~/u/OpenNMT/pretrained
 PRETRAINED_URL=https://s3.amazonaws.com/opennmt-models/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7
 mkdir -p ~/code/__local/OpenNMT
 mkdir -p ~/code/__local/OpenNMT/pretrained

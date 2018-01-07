@@ -1,8 +1,22 @@
+#Generic useless stuff
 z.*
 __*
+*~
+temp*
+tmp*
+*.swp
+
+
+#Output and big files.
+*DEBUG*
+*OUTPUT*
 out*.txt  
 #But I might override out*.txt sometimes
+*.zip
+*.zip.*
 *.wav
 Aaron*
 aero_*
 
+#Stuff I just didn't find useful
+translation/anu*
