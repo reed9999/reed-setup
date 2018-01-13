@@ -5,6 +5,8 @@ __*
 temp*
 tmp*
 *.swp
+*archive*
+
 
 
 #Output and big files.
@@ -17,6 +19,8 @@ out*.txt
 *.wav
 Aaron*
 aero_*
+*.bin
+*.bin.?
 
 #Stuff I just didn't find useful
 translation/anu*
