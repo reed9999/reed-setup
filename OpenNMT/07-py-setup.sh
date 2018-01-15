@@ -1,6 +1,9 @@
 ########################################
 # openNMT
-#http://torch.ch/docs/getting-started.html
+#https://discuss.pytorch.org/t/is-it-possible-to-use-pytorch-without-gpu-support/9534
+#
+# At this point I think it's better to learn just enough lua than to try to get
+#  this working
 ########################################
 
 cd ~/code
