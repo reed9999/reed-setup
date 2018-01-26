@@ -10,7 +10,7 @@ Attempted to fix libllvm5.0. See libllvm5.0problems.txt.
 https://askubuntu.com/questions/519867/upgrade-firefox-fails-lzma-error-compressed-data-is-corrupt
 philip@tenofdiamonds:/var/cache/apt/archives$ sudo rm libllvm5.0_1%3a5.0-3~16.04.1_amd64.deb 
 
-
+removed skypeforlinux; ran autoremove. Everything looks happy. I'll need to reinstall skype eventually.
 
 
 
