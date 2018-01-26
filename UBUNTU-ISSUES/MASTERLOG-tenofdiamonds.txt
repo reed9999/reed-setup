@@ -4,3 +4,9 @@ I thought it was suddenly running a lot slower in almost everything. The two mos
 
 2017-12-26
 First time I've noticed the screen going out and not coming back without a reboot. Keyboard backlighting shows signs of life, but monitor remains dead. Rebooted. Will track this closely.
+
+
+## History
+
+- 02 terminal wouldn't start with python3=3.6. see file. Trivial.
+- 03 upgrade pixbuf 2018-01-25 -- see directory

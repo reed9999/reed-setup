@@ -15,3 +15,7 @@ https://askubuntu.com/questions/122209/how-do-i-modify-or-disable-the-huds-use-o
 Add a new launcher item via a shell script.
 https://unix.stackexchange.com/questions/80822/ubuntu-unity-attach-script-to-launcher
 
+
+KILLING PROCESSES
+
+kill -9 `ps -ef|grep chr|grep -v color`

@@ -2,6 +2,10 @@
 # openNMT using OpenCL instead of NVidia's CUDA
 # http://forum.opennmt.net/t/opencl-instead-of-cuda/52
 ########################################
+# When I get this going, it will allow me to use my primary computer's
+# (tenofdiamonds') GPU
+# However, cltorch seems to be its own thing that may not work with std
+# torch. (?)
 
 
 log_disk_space () {

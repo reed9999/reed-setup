@@ -1,4 +1,5 @@
 # Annotations
+This file was formerly known as annotations-pretrained-main.md, but it's really not the main one.
 
 What hacks have i made to debug the pretrained translation process (see 04-pretrained.sh)?
 

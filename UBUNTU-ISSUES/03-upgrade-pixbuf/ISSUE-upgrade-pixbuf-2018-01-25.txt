@@ -1,0 +1,17 @@
+Serious post-upgrade problems. 
+
+On 2018-01-25 I upgraded everything in response to frequent page crashes on Chromium. I only really intended to upgrade the browser but got everything, I suspect. Right after that I got warnings. 
+
+https://askubuntu.com/questions/935646/is-this-upgrade-error-fatal
+
+
+Rebooted. Mostly OK. Crash messages upon reboot in unity (see screenshots).
+Attempted to fix libllvm5.0. See libllvm5.0problems.txt.
+https://askubuntu.com/questions/519867/upgrade-firefox-fails-lzma-error-compressed-data-is-corrupt
+philip@tenofdiamonds:/var/cache/apt/archives$ sudo rm libllvm5.0_1%3a5.0-3~16.04.1_amd64.deb 
+
+
+
+
+
+could be helpful later: https://help.ubuntu.com/community/Repositories/CommandLine

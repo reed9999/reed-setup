@@ -1,11 +1,21 @@
-########################################
+################################################################################
 #This shell script should represent all the "initial setup" needed to get my 
 # new Ubuntu 16 outfitted with everything I need for productive work.
-#The line between essential and nonessential is blurry, but the latter should
-# get bumped to later files.
+# See notes at end.
+################################################################################
 
 BASE_DIR=~/u
+
+symlink_cwd_for_convenience()
+{
+  echo `pwd`
+  ln -s `pwd` $BASE_DIR
+}
+
+
+symlink_cwd_for_convenience
 cd $BASE_DIR
+exit
 
 clone_dissertation_repos()
 {
@@ -71,3 +81,8 @@ fi
   # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
   # comment that stuff with #bash#
   #---------------
+
+
+
+#The line between essential and nonessential is blurry, but the latter should
+# get bumped to later files.

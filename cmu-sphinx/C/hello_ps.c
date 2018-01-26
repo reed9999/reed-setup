@@ -1,9 +1,28 @@
-/* What goes in hello_ps.c? */
-
 #include <pocketsphinx.h>
 #define MODELDIR "/usr/local/share/pocketsphinx/model"
 #define DATADIR "/home/philip/u/cmu-sphinx"
-#define GREEK
+#define GREEK 1
+
+#ifdef NEWJUNK
+char**
+get_params(int setup)
+{
+    char* s1, s2, s3;
+    if (setup == GREEK) {
+        s1 = MODELDIR "/el-gr/el-gr.cd_cont_5000";
+        s2 = (char*) MODELDIR "/el-gr/el-gr.lm";
+        s3 = (char*) MODELDIR "/el-gr/el-gr.lm";
+    } else {
+        s1 = MODELDIR "/en-us/en-us";
+        s2 = MODELDIR "/el-gr/el-gr.lm";
+        s3 = MODELDIR "/el-gr/el-gr.lm";
+N
+    }
+    char*[] rv = [s1, s2, s3];
+    return rv;
+}
+#endif
+
 int
 main(int argc, char *argv[])
 {
@@ -14,6 +33,10 @@ main(int argc, char *argv[])
     int16 buf[512];
     int rv;
     int32 score;
+
+#ifdef NEWJUNK
+    char** x = get_params(GREEK);
+#endif
 
     config = cmd_ln_init(NULL, ps_args(), TRUE,
 #ifdef GREEK

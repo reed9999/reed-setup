@@ -1,4 +1,4 @@
-# Install script for directory: /home/philip/u/cmu-sphinx
+# Install script for directory: /home/philip/u/cmu-sphinx/C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/philip/u/cmu-sphinx/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/philip/u/cmu-sphinx/C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
