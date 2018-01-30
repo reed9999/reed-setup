@@ -1,5 +1,8 @@
 # Handy git tips
 
+## Autostore credentials
+git config credential.helper store
+
 ## Change a remote
 http://help.github.com/articles/changing-a-remote-s-url/
 

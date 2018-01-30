@@ -10,9 +10,12 @@
 
 cd ~/code/anki/
 #https://docs.bigchaindb.com/projects/server/en/latest/appendices/install-latest-pip.html
-# # sudo apt install python3-pip
-# # pip3 install pyqt5
-# # # # pip3 install --upgrade pip
+sudo apt install python3-pip
+pip3 install --upgrade pip
+sudo pip3 install pyqt5==5.9
+pip3 install -r requirements.txt
+
+# See also https://stackoverflow.com/questions/44556629
 
 # ATTENTION!
 # Following turned out to be necessary for anki requirements but weren't automatic.
@@ -36,13 +39,7 @@ sudo python3.6 -m pip install apt_pkg
 # # # # sudo apt install libjack-jackd2-dev portaudio19-dev
 
 
-#Was failing on pyaudio until installs above. See ~/Dropbox/ubuntu/basic2-output01.txt
-#Then, for success, see ~/Dropbox/ubuntu/basic2-output02.txt
-#However, all of that was with Python 3.5, which doesn't work with anki
-#So I did my symlinks to get python3 to mean 3.6
-#Then similar failures on this.
 
-# # # # pip3 install -r requirements.txt
 #See https://github.com/SlapBot/stephanie-va/issues/8
 # for ideas on how to fix.
 
@@ -78,3 +75,4 @@ sudo python3.6 -m pip install apt_pkg
 # # echo "***\n\n\n2.7 complete. Now begin pyaudio 3.5\n\n\n***"
 # # sudo python3.5 -m pip install pyaudio
 # # echo "***\n\n\n3.5 complete. Now begin pyaudio 3.6\n\n\n***"
+

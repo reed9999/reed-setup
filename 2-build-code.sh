@@ -9,7 +9,14 @@ install_py_36(){
   sudo apt-get update
   sudo apt-get install python3.6
 }
-install_py_36
+
+
+echo "Do you need to install py 3.6 y/[n]?"
+read answer
+if ( answer = 'y' )
+then
+        install_py_36
+fi
   #---------------
   # GIT CLONES
   # Was moved here from basic-setup
@@ -17,6 +24,7 @@ install_py_36
 
 cd ~/code
 array=(anki econgraphs qutebrowser freeCodeCamp awesome-for-beginners Theano coala coala-bears)
+array=(anki) 
 for repo in "${array[@]}"
 do
 	echo "Now cloning $repo."
