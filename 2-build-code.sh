@@ -4,6 +4,8 @@
 # from src
 ########################################
 
+BASE_DIR="~/code"
+
 install_py_36(){
   sudo add-apt-repository ppa:jonathonf/python-3.6
   sudo apt-get update
@@ -11,8 +13,11 @@ install_py_36(){
 }
 
 clone_repos() {
-  cd ~/code
-  array=(anki django econgraphs qutebrowser freeCodeCamp awesome-for-beginners Theano coala coala-bears )
+  cd $BASE_DIR
+  array=( anki      django  econgraphs  qutebrowser   freeCodeCamp \
+          awesome-for-beginners \
+          Theano    coala   coala-bears reedwebutil   tuneinrecordings \
+        )
   for repo in "${array[@]}"
   do
     if [ ! -d "$repo" ]
@@ -22,6 +27,8 @@ clone_repos() {
     else 
       echo "No need to clone $repo; it seems to already exist."
     fi
+    cd $repo
+    git config credential.helper store
   done
 }
 
