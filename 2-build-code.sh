@@ -4,7 +4,7 @@
 # from src
 ########################################
 
-BASE_DIR="~/code"
+BASE_DIR=/home/philip/code
 
 install_py_36(){
   sudo add-apt-repository ppa:jonathonf/python-3.6
@@ -13,15 +13,19 @@ install_py_36(){
 }
 
 clone_repos() {
-  cd $BASE_DIR
-  array=( anki      django  econgraphs  qutebrowser   freeCodeCamp \
+  array=( anki      econgraphs  qutebrowser   freeCodeCamp \
           awesome-for-beginners \
           Theano    coala   coala-bears reedwebutil   tuneinrecordings \
+          django \
         )
   for repo in "${array[@]}"
   do
+    cd $BASE_DIR
+    echo "Considering $repo"
     if [ ! -d "$repo" ]
     then
+      echo "Dry run not really  cloning $repo."
+      pwd
       echo "Now cloning $repo."
       git clone "https://github.com/reed9999/$repo"
     else 
@@ -32,7 +36,7 @@ clone_repos() {
   done
 }
 
-clone_repos() {
+anki_addons() {
   base_dir="/home/philip/Documents/Anki/addons/"
   repo="reedanki"
   echo $base_dir
