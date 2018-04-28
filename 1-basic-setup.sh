@@ -49,6 +49,8 @@ echo "Base: $BASE_DIR"
 cd $BASE_DIR
 clone_dissertation_repos
 install_and_configure_vim
+sudo apt install p7zip-full
+
 
 #pass the flag --all as the first param if we don't wish to reinstall old stuff.
 #This provides a convenient way for me 'comment' code yet still run it easily.

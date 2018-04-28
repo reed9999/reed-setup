@@ -19,3 +19,8 @@ https://unix.stackexchange.com/questions/80822/ubuntu-unity-attach-script-to-lau
 KILLING PROCESSES
 
 kill -9 `ps -ef|grep chr|grep -v color`
+
+
+GOOGLE DRIVE FROM UBUNTU
+http://www.omgubuntu.co.uk/2016/08/use-google-drive-ubuntu-16-04-linux-desktops
+sudo apt install gnome-control-center gnome-online-accounts

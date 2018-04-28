@@ -15,6 +15,7 @@ import subprocess
 from subprocess import call
 os.chdir(os.path.expanduser('~/u'))
 
+print( "Random stuff I like to play with, and organizational helps.")
 for app in [
   'ffmpeg',
   'golly', 
@@ -23,26 +24,22 @@ for app in [
   call(["sudo", "apt", "install", app])
 
 #call ("ffmpeg --help > output/temp3.txt".split())
-proc1 = call ("ffmpeg --help".split())
+#proc1 = call ("ffmpeg --help".split())
 proc1 = subprocess.Popen ("ffmpeg --help".split(), stdout=subprocess.PIPE)
 proc2 = call ("head -20".split(), stdin=proc1.stdout)
 
 print "TODO! I need to do a better job with that redirect."
+
+
+########################################
+#ZOTERO?
+# See handy-tips/zotero.md
 
 #handy tip:
 #os.chdir(os.path.join(os.path.abspath(os.path.curdir),u'subfolder'))
 
 
 """
-cd ~/u
-sudo apt install ffmpeg
-cat output/temp3.txt
-
-
-echo "Random stuff I like to play with, and organizational helps."
-sudo apt install golly
-sudo apt install docky
-
 #Eventually add some git UI -- or maybe do this in hacking? elsewhere?
 #https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Graphical_Interfaces_-_FLOSS
 

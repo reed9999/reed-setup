@@ -4,6 +4,7 @@
 #On the other hand, running the script only from 3.5 to 3.6 leaves Ubuntu in a 
 # bad state where the Terminal won't start at startup. 
 
+echo 'which python3, python3.5, python3.6'
 which python3
 which python3.5
 which python3.6

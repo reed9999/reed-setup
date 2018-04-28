@@ -26,3 +26,10 @@ asound
 pthread
 m
         )
+
+#### Who knows what I'm doing here.
+#https://stackoverflow.com/questions/11293572/cmake-create-a-shared-object
+SET(mylibSRCS hello_ps.c)
+ADD_LIBRARY(mylib SHARED ${mylibSRCS})
+
+TARGET_LINK_LIBRARIES(mylib)

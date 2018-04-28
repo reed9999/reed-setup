@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named mylib
+
+# Build rule for target.
+mylib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mylib
+.PHONY : mylib
+
+# fast build rule for target.
+mylib/fast:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/build
+.PHONY : mylib/fast
+
+#=============================================================================
 # Target rules for targets named hello_clion
 
 # Build rule for target.
@@ -129,6 +142,7 @@ hello_ps.o: hello_ps.c.o
 
 # target to build an object file
 hello_ps.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/hello_ps.c.o
 	$(MAKE) -f CMakeFiles/hello_clion.dir/build.make CMakeFiles/hello_clion.dir/hello_ps.c.o
 .PHONY : hello_ps.c.o
 
@@ -138,6 +152,7 @@ hello_ps.i: hello_ps.c.i
 
 # target to preprocess a source file
 hello_ps.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/hello_ps.c.i
 	$(MAKE) -f CMakeFiles/hello_clion.dir/build.make CMakeFiles/hello_clion.dir/hello_ps.c.i
 .PHONY : hello_ps.c.i
 
@@ -147,6 +162,7 @@ hello_ps.s: hello_ps.c.s
 
 # target to generate assembly for a file
 hello_ps.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/hello_ps.c.s
 	$(MAKE) -f CMakeFiles/hello_clion.dir/build.make CMakeFiles/hello_clion.dir/hello_ps.c.s
 .PHONY : hello_ps.c.s
 
@@ -158,6 +174,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... mylib"
 	@echo "... hello_clion"
 	@echo "... hello_ps.o"
 	@echo "... hello_ps.i"
