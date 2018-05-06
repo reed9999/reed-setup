@@ -13,7 +13,7 @@ THIS_DIR_TO_LINK=~/u
 symlink_cwd_for_convenience()
 {
   echo "Current :`pwd`"
-  ln -s `pwd` $THIS_DIR_TO_LINK
+  test $THIS_DIR_TO_LINK ||  ln -s `pwd` $THIS_DIR_TO_LINK
 }
 
 
