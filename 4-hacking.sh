@@ -20,6 +20,7 @@ GNOME_clone() {
 
 date >> diskspace-before-4-hacking.txt
 df -vH >> diskspace-before-4-hacking.txt
+echo "Diskspace at start: `df -vH`\n\n^^ diskspace at start."
 
 
 #Not that much in GNOME actually uses autogen and configure

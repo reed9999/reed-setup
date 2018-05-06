@@ -1,15 +1,19 @@
 ################################################################################
-#This shell script should represent all the "initial setup" needed to get my 
-# new Ubuntu 16 outfitted with everything I need for productive work.
+#This shell script is the main one that eventually should kick off all the 
+# "initial setup" needed to get my a new Ubuntu 16 outfitted with everything I 
+# need or want for productive work.
+#
+# At present this idea is split among files 1 through 5, and as a first stage 
+# I'd like to select whether to run one or all of those.
 # See notes at end.
 ################################################################################
 
-BASE_DIR=~/u
+THIS_DIR_TO_LINK=~/u
 
 symlink_cwd_for_convenience()
 {
   echo "Current :`pwd`"
-  ln -s `pwd` $BASE_DIR
+  ln -s `pwd` $THIS_DIR_TO_LINK
 }
 
 
@@ -45,8 +49,8 @@ install_and_configure_vim()
 ################
 
 symlink_cwd_for_convenience
-echo "Base: $BASE_DIR"
-cd $BASE_DIR
+echo "Base: $THIS_DIR_TO_LINK"
+cd $THIS_DIR_TO_LINK
 clone_dissertation_repos
 install_and_configure_vim
 sudo apt install p7zip-full
