@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ################################################################################
 #This shell script is the main one that eventually should kick off all the 
 # "initial setup" needed to get my a new Ubuntu 16 outfitted with everything I 
@@ -8,15 +9,14 @@
 # See notes at end.
 ################################################################################
 
-THIS_DIR_TO_LINK=~/u
+THIS_DIR_TO_LINK=~/setup-bash/
+CONFIG_FILES_DIR=~/setup/CONFIG-FILES/
 
 symlink_cwd_for_convenience()
 {
   echo "Current :`pwd`"
   test $THIS_DIR_TO_LINK ||  ln -s `pwd` $THIS_DIR_TO_LINK
 }
-
-
 
 clone_dissertation_repos()
 {
@@ -35,7 +35,7 @@ install_and_configure_vim()
   echo "Copying my standard config files."
 	cp --no-clobber ~/.vimrc ~/.vimrc-backup
 	cp --no-clobber ~/.viminfo ~/.viminfo-backup
-	cp --no-clobber CONFIG-FILES/.vim* ~
+	cp --no-clobber $CONFIG_FILES_DIR/.vim* ~
   if [ `command -v vim` = '' ]
   then
     echo "I should get around to installing vim. TODO."
@@ -51,9 +51,9 @@ install_and_configure_vim()
 symlink_cwd_for_convenience
 echo "Base: $THIS_DIR_TO_LINK"
 cd $THIS_DIR_TO_LINK
+
 clone_dissertation_repos
 install_and_configure_vim
-sudo apt install p7zip-full
 
 
 #pass the flag --all as the first param if we don't wish to reinstall old stuff.
@@ -64,8 +64,9 @@ sudo apt install p7zip-full
 if [ "$1" == "--all" ]
 then
   echo "Running the full setup (reinstalling everything)."
-  cd ~/u
+  cd $THIS_DIR_TO_LINK
   outfitting/setup.sh $1
+
 else
   echo "Running only the abbreviated setup (stuff I haven't installed yet.)"
 fi
