@@ -1,8 +1,12 @@
+#!/usr/bin/env bash
 ################
 # OUTFITTING my Ubuntu
-# This works hand-in-glove with 1-basic-setup, but it's now canonical to put 
-# non-essential scripts that get a new Ubuntu to my liking in the outfitting
-# directory.
+# This works hand-in-glove with 1-basic-setup, but my intent was to make it
+# canonical to put non-essential scripts that get a new Ubuntu to my liking
+# in the outfitting directory.
+#
+# I need to rethink whether "outfitting" makes sense or whether I need a
+# different way to separate the essential from the nonessential.
 ################
 
 if [ "$1" == "--all" ]
@@ -21,3 +25,4 @@ sudo apt install chromium
 sudo apt install vlc
 sudo apt install bluefish
 sudo apt install lynx
+sudo apt install p7zip-full

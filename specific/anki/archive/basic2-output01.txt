@@ -1,0 +1,160 @@
+
+Press ENTER or type command to continue
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libexpat1-dev libpython3-dev libpython3.5-dev python-pip-whl python3-dev
+  python3-setuptools python3-wheel python3.5-dev
+Suggested packages:
+  python-setuptools-doc
+The following NEW packages will be installed:
+  libexpat1-dev libpython3-dev libpython3.5-dev python-pip-whl python3-dev
+  python3-pip python3-setuptools python3-wheel python3.5-dev
+0 upgraded, 9 newly installed, 0 to remove and 25 not upgraded.
+Need to get 39.2 MB of archives.
+After this operation, 57.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libexpat1-dev amd64 2.1.0-7ubuntu0.16.04.3 [115 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5-dev amd64 3.5.2-2ubuntu0~16.04.4 [37.3 MB]
+Get:3 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpython3-dev amd64 3.5.1-3 [6,926 B]
+Get:4 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip-whl all 8.1.1-2ubuntu0.4 [1,110 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5-dev amd64 3.5.2-2ubuntu0~16.04.4 [413 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python3-dev amd64 3.5.1-3 [1,186 B]
+Get:7 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python3-pip all 8.1.1-2ubuntu0.4 [109 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python3-setuptools all 20.7.0-1 [88.0 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 python3-wheel all 0.29.0-1 [48.1 kB]
+Fetched 39.2 MB in 6s (6,411 kB/s)                                             
+Selecting previously unselected package libexpat1-dev:amd64.
+(Reading database ... 365340 files and directories currently installed.)
+Preparing to unpack .../libexpat1-dev_2.1.0-7ubuntu0.16.04.3_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+Selecting previously unselected package libpython3.5-dev:amd64.
+Preparing to unpack .../libpython3.5-dev_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../libpython3-dev_3.5.1-3_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.5.1-3) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python-pip-whl (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python3.5-dev.
+Preparing to unpack .../python3.5-dev_3.5.2-2ubuntu0~16.04.4_amd64.deb ...
+Unpacking python3.5-dev (3.5.2-2ubuntu0~16.04.4) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../python3-dev_3.5.1-3_amd64.deb ...
+Unpacking python3-dev (3.5.1-3) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../python3-pip_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python3-pip (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python3-setuptools.
+Preparing to unpack .../python3-setuptools_20.7.0-1_all.deb ...
+Unpacking python3-setuptools (20.7.0-1) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../python3-wheel_0.29.0-1_all.deb ...
+Unpacking python3-wheel (0.29.0-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+Setting up libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.4) ...
+Setting up libpython3-dev:amd64 (3.5.1-3) ...
+Setting up python-pip-whl (8.1.1-2ubuntu0.4) ...
+Setting up python3.5-dev (3.5.2-2ubuntu0~16.04.4) ...
+Setting up python3-dev (3.5.1-3) ...
+Setting up python3-pip (8.1.1-2ubuntu0.4) ...
+Setting up python3-setuptools (20.7.0-1) ...
+Setting up python3-wheel (0.29.0-1) ...
+ERROR: unknown command "installsudo" - maybe you meant "install"
+Collecting bs4 (from -r requirements.txt (line 1))
+  Downloading bs4-0.0.1.tar.gz
+Collecting send2trash (from -r requirements.txt (line 2))
+  Downloading Send2Trash-1.4.2-py3-none-any.whl
+Collecting httplib2 (from -r requirements.txt (line 3))
+  Downloading httplib2-0.10.3.tar.gz (204kB)
+    100% |████████████████████████████████| 204kB 3.4MB/s 
+Collecting pyaudio (from -r requirements.txt (line 4))
+  Downloading PyAudio-0.2.11.tar.gz
+Collecting requests (from -r requirements.txt (line 5))
+  Downloading requests-2.18.4-py2.py3-none-any.whl (88kB)
+    100% |████████████████████████████████| 92kB 334kB/s 
+Collecting decorator (from -r requirements.txt (line 6))
+  Downloading decorator-4.1.2-py2.py3-none-any.whl
+Collecting markdown (from -r requirements.txt (line 7))
+  Downloading Markdown-2.6.10.zip (414kB)
+    100% |████████████████████████████████| 419kB 1.9MB/s 
+Collecting beautifulsoup4 (from bs4->-r requirements.txt (line 1))
+  Downloading beautifulsoup4-4.6.0-py3-none-any.whl (86kB)
+    100% |████████████████████████████████| 92kB 3.0MB/s 
+Collecting chardet<3.1.0,>=3.0.2 (from requests->-r requirements.txt (line 5))
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 2.9MB/s 
+Collecting certifi>=2017.4.17 (from requests->-r requirements.txt (line 5))
+  Downloading certifi-2017.11.5-py2.py3-none-any.whl (330kB)
+    100% |████████████████████████████████| 337kB 2.2MB/s 
+Collecting urllib3<1.23,>=1.21.1 (from requests->-r requirements.txt (line 5))
+  Downloading urllib3-1.22-py2.py3-none-any.whl (132kB)
+    100% |████████████████████████████████| 133kB 3.3MB/s 
+Collecting idna<2.7,>=2.5 (from requests->-r requirements.txt (line 5))
+  Downloading idna-2.6-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 4.1MB/s 
+Building wheels for collected packages: bs4, httplib2, pyaudio, markdown
+  Running setup.py bdist_wheel for bs4 ... done
+  Stored in directory: /home/philip/.cache/pip/wheels/84/67/d4/9e09d9d5adede2ee1c7b7e8775ba3fbb04d07c4f946f0e4f11
+  Running setup.py bdist_wheel for httplib2 ... done
+  Stored in directory: /home/philip/.cache/pip/wheels/ca/ac/5f/749651f7925b231103f5316cacca82a487810c22d30f011c0c
+  Running setup.py bdist_wheel for pyaudio ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-yi93dq8b/pyaudio/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" bdist_wheel -d /tmp/tmpib1y6xmtpip-wheel- --python-tag cp35:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.5
+  copying src/pyaudio.py -> build/lib.linux-x86_64-3.5
+  running build_ext
+  building '_portaudio' extension
+  creating build/temp.linux-x86_64-3.5
+  creating build/temp.linux-x86_64-3.5/src
+  x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.5m -c src/_portaudiomodule.c -o build/temp.linux-x86_64-3.5/src/_portaudiomodule.o
+  src/_portaudiomodule.c:29:23: fatal error: portaudio.h: No such file or directory
+  compilation terminated.
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for pyaudio
+  Running setup.py clean for pyaudio
+  Running setup.py bdist_wheel for markdown ... done
+  Stored in directory: /home/philip/.cache/pip/wheels/1e/5a/55/a80b200d12e234d575ad68c1528593d1ce488720b65b24e48c
+Successfully built bs4 httplib2 markdown
+
+
+
+
+Failed to build pyaudio
+Installing collected packages: beautifulsoup4, bs4, send2trash, httplib2, pyaudio, chardet, certifi, urllib3, idna, requests, decorator, markdown
+  Running setup.py install for pyaudio ... error
+    Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-yi93dq8b/pyaudio/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-cokhzjb_-record/install-record.txt --single-version-externally-managed --compile --user --prefix=:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.5
+    copying src/pyaudio.py -> build/lib.linux-x86_64-3.5
+    running build_ext
+    building '_portaudio' extension
+    creating build/temp.linux-x86_64-3.5
+    creating build/temp.linux-x86_64-3.5/src
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.5m -c src/_portaudiomodule.c -o build/temp.linux-x86_64-3.5/src/_portaudiomodule.o
+    src/_portaudiomodule.c:29:23: fatal error: portaudio.h: No such file or directory
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-yi93dq8b/pyaudio/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-cokhzjb_-record/install-record.txt --single-version-externally-managed --compile --user --prefix=" failed with error code 1 in /tmp/pip-build-yi93dq8b/pyaudio/
+You are using pip version 8.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+shell returned 1
+
+

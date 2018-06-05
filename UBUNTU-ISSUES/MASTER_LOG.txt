@@ -1,6 +1,0 @@
-## Concerns
-2017-12-25
-I thought it was suddenly running a lot slower in almost everything. The two most likely culprits would be Dropbox (I did a LOT of reorg on the plane on 12-24) or the hugely memory intensive stuff I did with OpenNML overnight around 12-22 and 23.
-
-2017-12-26
-First time I've noticed the screen going out and not coming back without a reboot. Keyboard backlighting shows signs of life, but monitor remains dead. Rebooted. Will track this closely.

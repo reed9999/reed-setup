@@ -4,12 +4,14 @@
 #On the other hand, running the script only from 3.5 to 3.6 leaves Ubuntu in a 
 # bad state where the Terminal won't start at startup. 
 
+echo 'which python3, python3.5, python3.6'
 which python3
 which python3.5
 which python3.6
 
 cd /usr/bin
-sudo cp python3 ~/Dropbox/ubuntu/handy-tips/symlink-backup-python3
+REEDSETUPDIR=~/u
+sudo cp python3 $REEDSETUPDIR/handy-tips/symlink-backup-python3
 sudo rm python3
 
 # tgt = (( $1 || "3.6" ))

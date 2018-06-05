@@ -1,3 +1,7 @@
 The real problem was that my python links had gotten fouled up.
 Wondering how that happened, I took a .zip snapshot.
 https://askubuntu.com/a/880191/679415
+
+
+Turns out I just need to toggle python3 back to 3.5. 
+See script ~/u/handy-tips/switch-python-ver.sh

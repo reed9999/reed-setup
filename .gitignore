@@ -1,8 +1,33 @@
+#Generic useless stuff
 z.*
 __*
+*~
+temp*
+tmp*
+*.swp
+*archive*
+
+
+
+#Output and big files.
+*DEBUG*
+*OUTPUT*
+OUT*.txt
+OpenNMT/output
 out*.txt  
 #But I might override out*.txt sometimes
+*.zip
+*.zip.*
 *.wav
+
+symlink-backup*
+
+
 Aaron*
 aero_*
+*.bin
+*.bin.?
 
+#Stuff I just didn't find useful
+adobe-air/
+translation/anu*

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/hello_clion.dir/hello_ps.c.o  -o hello_clion -lpocketsphinx -lsphinxbase -lsphinxad -lasound -lpthread -lm 

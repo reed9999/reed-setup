@@ -1,0 +1,4 @@
+/home/philip/u/cmu-sphinx/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/philip/u/cmu-sphinx/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/philip/u/cmu-sphinx/C/cmake-build-debug/CMakeFiles/mylib.dir
+/home/philip/u/cmu-sphinx/C/cmake-build-debug/CMakeFiles/hello_clion.dir
