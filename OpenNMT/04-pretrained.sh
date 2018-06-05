@@ -12,7 +12,7 @@ log_disk_space() {
 }
 PRETRAINED_DIR=~/code/__local/OpenNMT/pretrained
 #At one point that wasn't working so I replaced it with this....
-PRETRAINED_DIR=~/u/OpenNMT/pretrained
+#PRETRAINED_DIR=~/u/OpenNMT/pretrained
 PRETRAINED_URL=https://s3.amazonaws.com/opennmt-models/onmt_baseline_wmt15-all.en-de_epoch13_7.19_release.t7
 mkdir -p ~/code/__local/OpenNMT
 mkdir -p ~/code/__local/OpenNMT/pretrained
