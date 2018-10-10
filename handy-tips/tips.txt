@@ -1,12 +1,18 @@
-Get rid of Ctrl+S freezing
+## Using the terminal
+### Get rid of Ctrl+S freezing
+Soln: Ctrl+Q
+
 https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal
 
 
-
+## git
 git config credential.helper store
 
+## Looking for things
+Alias to find only symlinks
+alias links='find -maxdepth 1 -type l'
 
-LAUNCHER
+## LAUNCHER
 
 
 Get rid of launcher
@@ -16,11 +22,11 @@ Add a new launcher item via a shell script.
 https://unix.stackexchange.com/questions/80822/ubuntu-unity-attach-script-to-launcher
 
 
-KILLING PROCESSES
+## KILLING PROCESSES
 
 kill -9 `ps -ef|grep chr|grep -v color`
 
 
-GOOGLE DRIVE FROM UBUNTU
+## GOOGLE DRIVE FROM UBUNTU
 http://www.omgubuntu.co.uk/2016/08/use-google-drive-ubuntu-16-04-linux-desktops
 sudo apt install gnome-control-center gnome-online-accounts

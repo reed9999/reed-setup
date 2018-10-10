@@ -10,6 +10,8 @@ pip3 install --upgrade pip
 pip3 install tox
 tox -e mkvenv-pypi
 
+pip3 install asciidoc
+
 echo "#!/bin/bash
 ~/path/to/qutebrowser/.venv/bin/python3 -m qutebrowser \"$@\"" > /usr/local/bin/qutebrowser/start.sh
 /usr/local/bin/qutebrowser/start.sh

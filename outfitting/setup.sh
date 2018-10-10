@@ -20,6 +20,11 @@ else
 #  echo "  so I have nothing to install from outfitting/setup.sh."
 fi
 
+sudo apt install pidgin
+echo "TODO: Python script to read a list of things already installed and "
+echo "  save us time of attempting."
+#Why Python? because list manipulation in bash is horrid.
+
 sudo apt install redshift
 sudo apt install chromium
 sudo apt install vlc

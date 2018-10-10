@@ -10,7 +10,8 @@
 ################################################################################
 
 THIS_DIR_TO_LINK=~/setup-bash/
-CONFIG_FILES_DIR=~/setup/CONFIG-FILES/
+MAIN_DIR=~/setup
+CONFIG_FILES_DIR=$MAIN_DIR/CONFIG-FILES/
 
 symlink_cwd_for_convenience()
 {
@@ -55,7 +56,6 @@ cd $THIS_DIR_TO_LINK
 clone_dissertation_repos
 install_and_configure_vim
 
-
 #pass the flag --all as the first param if we don't wish to reinstall old stuff.
 #This provides a convenient way for me 'comment' code yet still run it easily.
 #But this is crude so repace it with an actual prompt... 
@@ -64,27 +64,16 @@ install_and_configure_vim
 if [ "$1" == "--all" ]
 then
   echo "Running the full setup (reinstalling everything)."
-  cd $THIS_DIR_TO_LINK
+  cd $MAIN_DIR
   outfitting/setup.sh $1
 
 else
   echo "Running only the abbreviated setup (stuff I haven't installed yet.)"
 fi
 
-
-
 ################
 # ANY OTHER SYMLINKS?
 ################
-
-
-
-# iConference 2018 documents. No longer relevant (though I might work on my
-# poster)
-## cd ~/Documents
-## git clone https://github.com/reed9999/dissertation iconf2018
-## cd iconf2018
-## git checkout iconf2018
 
 #https://askubuntu.com/a/865569
   #---------------
@@ -92,8 +81,3 @@ fi
   # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
   # comment that stuff with #bash#
   #---------------
-
-
-
-#The line between essential and nonessential is blurry, but the latter should
-# get bumped to later files.

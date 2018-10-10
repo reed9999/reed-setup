@@ -10,7 +10,7 @@ which python3.5
 which python3.6
 
 cd /usr/bin
-REEDSETUPDIR=~/u
+REEDSETUPDIR=~/uu
 sudo cp python3 $REEDSETUPDIR/handy-tips/symlink-backup-python3
 sudo rm python3
 
