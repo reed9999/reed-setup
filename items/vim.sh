@@ -20,4 +20,5 @@ else
   echo "  so I have nothing to install from outfitting/setup.sh."
 fi
 
+sudo apt install vim
 copy_vim_config

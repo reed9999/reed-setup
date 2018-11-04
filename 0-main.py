@@ -11,12 +11,9 @@ import subprocess
 from subprocess import call
 import yaml
 
-# #os.chdir(os.path.expanduser('~/u'))
-#
-# proc1 = subprocess.Popen ("ffmpeg --help".split(), stdout=subprocess.PIPE)
-# proc2 = call ("head -20".split(), stdin=proc1.stdout)
-#
-# print "TODO! I need to do art better job with that redirect."
+assert os.getcwd() == os.path.expanduser('~/reed-setup'), \
+    "You must change directories to ~/reed-setup to run this."
+
 
 # Still a bit too HARDCODED
 DEFAULT_ITEMSFILE = os.path.join(
@@ -36,14 +33,60 @@ MAIN_SCRIPTS = [
 
 
 class ReedSetupApp:
+    """The main app class.
+
+    It's probably considered unpythonic to be so stubbornly object-oriented, 
+    but I will accept being unpythonic here because I like this OO paradigm.
+    """
+
+    def __init__(self):
+        self._successes = []
+        self._failures = []
+
+
+
+    def install_simple(self, what):
+        try:
+            return_value = self.install_from_script(what)
+        except:
+            cmd = "sudo apt install {}".format(what)
+            return_value = call(cmd, shell=True)
+        if return_value in [0, True]:
+            self._successes.append(what)
+        else:
+            self._failures.append(what)
+
+
+
+
+    def install(self, what):
+        assert len(what) > 0, "Whatever we install, it must have len > 0"
+        if type(what) == str:
+            self.install_simple(what)
+        else:
+            for subitem in what:
+                self.install(subitem)
+
+
+
     @classmethod
-    def get_intentions_from_user(cls):
+    def go(cls):
+        app = cls()
+        with open(DEFAULT_ITEMSFILE, 'r') as f:
+            list_of_what = yaml.load(f)
+            app.install(list_of_what)
+        print ("Successes: {}".format(app._successes))
+        print ("Failures: {}".format(app._failures))
+
+        #cls.old_style_go()
+
+    # OLD APPROACH - being phased out
+    def get_intentions_from_user(self):
         print("Eventually ask the user")
-        cls._scripts_to_run = MAIN_SCRIPTS
+        self._scripts_to_run = MAIN_SCRIPTS
     
-    @classmethod
-    def install_scripts(cls):
-        for script in cls._scripts_to_run:
+    def install_scripts(self):
+        for script in self._scripts_to_run:
             print("I will now run {}".format(script))
             proc = call(script, shell=True)
 
@@ -52,29 +95,6 @@ class ReedSetupApp:
         app = cls()
         app.get_intentions_from_user()
         app.install_scripts()
-
-    @classmethod
-    def install_simple(cls, what):
-        print(what)
-
-    @classmethod
-    def install(cls, what):
-        assert len(what) > 0, "Whatever we install, it must be something of len > 0"
-        if type(what) == str:
-            cls.install_simple(what)
-        else:
-            for subitem in what:
-                cls.install(subitem)
-
-
-
-    @classmethod
-    def go(cls):
-        with open(DEFAULT_ITEMSFILE, 'r') as f:
-            what = yaml.load(f)
-            for item in what:
-                cls.install(item)
-        #cls.old_style_go()
 
 def main():
     ReedSetupApp.go()

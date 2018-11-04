@@ -2,10 +2,13 @@
 
 # From 1-basic-setup and its subsidiaries
 - 
-  -  redshift
-  -  chromium
-  -  vlc
-  -  bluefish
-  -  lynx
-  -  p7zip-full
-  -  pidgin
+  - git
+  - vim
+  - redshift
+  - chromium
+  - vlc
+  - bluefish
+  - lynx
+  - p7zip-full
+  - pidgin
+  - pycharm #OK not really yet

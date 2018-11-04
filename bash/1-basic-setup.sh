@@ -64,13 +64,8 @@ fi
 # ANY OTHER SYMLINKS?
 ################
 
+## This is helpful
 #https://askubuntu.com/a/865569
-  #---------------
-  # LEARNING bash
-  # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
-  # comment that stuff with #bash#
-  #---------------
-
 
 
 ### Dissertation
