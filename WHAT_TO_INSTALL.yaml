@@ -1,0 +1,11 @@
+# WHAT_TO_INSTALL.yaml
+
+# From 1-basic-setup and its subsidiaries
+- 
+  -  redshift
+  -  chromium
+  -  vlc
+  -  bluefish
+  -  lynx
+  -  p7zip-full
+  -  pidgin

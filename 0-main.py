@@ -2,25 +2,30 @@
 # Top-level driver for my grand plan of automating Ubuntu setup "like I like 
 # it.
 #
-# My major rethink just now has me convinced: I should commit to Python at the
-# top level and only use bash scripts where convenient for tiny tasks.
-# Although improving my bash is a worthy goal, improving my Python is a higher
-# priority!
+# Main design question is whether to have Python drive bash (occasionally) or
+# vice versa. I want Python to be top level. Only use bash scripts where 
+# convenient for tiny tasks.
 ########################################
 import os
 import subprocess
 from subprocess import call
-
+import yaml
 
 # #os.chdir(os.path.expanduser('~/u'))
 #
 # proc1 = subprocess.Popen ("ffmpeg --help".split(), stdout=subprocess.PIPE)
 # proc2 = call ("head -20".split(), stdin=proc1.stdout)
 #
-# print "TODO! I need to do a better job with that redirect."
+# print "TODO! I need to do art better job with that redirect."
 
+# Still a bit too HARDCODED
+DEFAULT_ITEMSFILE = os.path.join(
+    os.path.expanduser('~'),
+    'reed-setup',
+    'WHAT_TO_INSTALL.yaml',
+)
 MAIN_SCRIPTS = [
-    'bash/1-basic-setup.sh',
+#    'bash/1-basic-setup.sh',
     'bash/2-build-code.sh',
     '3-specialty.py',
     'bash/4-hacking.sh',
@@ -29,21 +34,47 @@ MAIN_SCRIPTS = [
     'bash/90-links.sh',
 ]
 
-class ReedSetupApp:
-    def get_intentions_from_user(self):
-        print("Eventually ask the user")
-        self._scripts_to_run = MAIN_SCRIPTS
 
-    def install_scripts(self):
-        for script in self._scripts_to_run:
+class ReedSetupApp:
+    @classmethod
+    def get_intentions_from_user(cls):
+        print("Eventually ask the user")
+        cls._scripts_to_run = MAIN_SCRIPTS
+    
+    @classmethod
+    def install_scripts(cls):
+        for script in cls._scripts_to_run:
             print("I will now run {}".format(script))
             proc = call(script, shell=True)
 
     @classmethod
-    def go(cls):
+    def old_style_go(cls):
         app = cls()
         app.get_intentions_from_user()
         app.install_scripts()
+
+    @classmethod
+    def install_simple(cls, what):
+        print(what)
+
+    @classmethod
+    def install(cls, what):
+        assert len(what) > 0, "Whatever we install, it must be something of len > 0"
+        if type(what) == str:
+            cls.install_simple(what)
+        else:
+            for subitem in what:
+                cls.install(subitem)
+
+
+
+    @classmethod
+    def go(cls):
+        with open(DEFAULT_ITEMSFILE, 'r') as f:
+            what = yaml.load(f)
+            for item in what:
+                cls.install(item)
+        #cls.old_style_go()
 
 def main():
     ReedSetupApp.go()

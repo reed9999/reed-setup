@@ -19,17 +19,6 @@ symlink_cwd_for_convenience()
   test $THIS_DIR_TO_LINK ||  ln -s `pwd` $THIS_DIR_TO_LINK
 }
 
-clone_dissertation_repos()
-{
-  cd ~/Documents
-  DIR_TO_CLONE=dissertation
-  test $DIR_TO_CLONE || git clone https://github.com/reed9999/$DIR_TO_CLONE
-  test ~/diss || ln -s ~/Documents/dissertation/ ~/diss
-
-  DIR_TO_CLONE=transcriptions
-  test $DIR_TO_CLONE || git clone https://github.com/reed9999/$DIR_TO_CLONE
-  test ~/trxn || ln -s ~/Documents/transcriptions/ ~/trxn
-}
 
 install_and_configure_vim()
 {
@@ -53,8 +42,8 @@ symlink_cwd_for_convenience
 echo "Base: $THIS_DIR_TO_LINK"
 cd $THIS_DIR_TO_LINK
 
-clone_dissertation_repos
-install_and_configure_vim
+# clone_dissertation_repos See below
+# install_and_configure_vim Adapted to new setup - see 0-main
 
 #pass the flag --all as the first param if we don't wish to reinstall old stuff.
 #This provides a convenient way for me 'comment' code yet still run it easily.
@@ -71,7 +60,7 @@ else
   echo "Running only the abbreviated setup (stuff I haven't installed yet.)"
 fi
 
-################
+################.
 # ANY OTHER SYMLINKS?
 ################
 
@@ -81,3 +70,20 @@ fi
   # Clearly I still have a lot to learn. For now, to avoid breaking code, I'll 
   # comment that stuff with #bash#
   #---------------
+
+
+
+### Dissertation
+# I no longer have a good reason to clone this.
+clone_dissertation_repos()
+{
+  cd ~/Documents
+  DIR_TO_CLONE=dissertation
+  test $DIR_TO_CLONE || git clone https://github.com/reed9999/$DIR_TO_CLONE
+  test ~/diss || ln -s ~/Documents/dissertation/ ~/diss
+
+  DIR_TO_CLONE=transcriptions
+  test $DIR_TO_CLONE || git clone https://github.com/reed9999/$DIR_TO_CLONE
+  test ~/trxn || ln -s ~/Documents/transcriptions/ ~/trxn
+}
+

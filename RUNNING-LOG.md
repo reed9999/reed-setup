@@ -1,3 +1,14 @@
+## 2018 Nov 4
+Computer wiped out by warranty support; great opportunity to test and rearrange my setup here.
+
+First question is why on earth is this almost 200 Mb? See .git/object/pack. Pretty sure 
+that's because I stupidly had audio files in the repo at one point. I thought I'd removed them.
+Call it a TODO to come back to.
+
+Second question is reorg. I like modularity and would like each item to have a "recipe."
+Standard packages where it's just a sudo apt __ have an implied recipe and need 
+nothing other than a line in a list.
+
 ## 2018 Sep 1
 
 I want to use boto3 but I want to make a requirements file for python3. But pip3 was still weird. See topical-logs/pip
