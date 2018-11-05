@@ -7,8 +7,13 @@ INFO_URL=https://data.services.jetbrains.com//products/releases?code=TBA&latest=
 URL=https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.11.4269.tar.gz
 CHECKSUM_URL=https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.11.4269.tar.gz.sha256
 
-wget $URL
-wget $CHECKSUM_URL
+JETBRAINS_GLOB=jetbrains-toolbox*.gz
+if [ ! -e $JETBRAINS_GLOB ] && [ ! -e ~/Downloads/$JETBRAINS_GLOB ]; then 
+        wget $URL
+        wget $CHECKSUM_URL
+else
+        echo "Jetbrains Toolbox file already exists"
+fi;
 
 # See https://stackoverflow.com/questions/21956954/how-to-check-the-checksum-through-commandline
 

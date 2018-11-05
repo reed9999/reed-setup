@@ -66,16 +66,19 @@ class ReedSetupApp:
         #We could have put the following in a try block and used 
         # except Exception as ex    etc. with raise SomeExceptionClass from ex
         cmd = os.path.join(items_path, '{}.sh'.format(what))
-        return call(cmd, shell=True)
+        rv = call(cmd, shell=True)
+        return rv
 
     def install_simple(self, what):
+        BASH_SUCCESS = 0
         try:
             return_value = self.install_from_script(what)
-            print ("OK return value {}".return_value)
+            #print ("[{}] OK return value {}".format(what, return_value))
         except:
             cmd = "sudo apt install {}".format(what)
             return_value = call(cmd, shell=True)
-        if return_value in [0, True]:
+        print ("For item {} rv is {}".format(what, return_value))
+        if return_value in [BASH_SUCCESS, True]:
             self._successes.append(what)
         else:
             self._failures.append(what)
