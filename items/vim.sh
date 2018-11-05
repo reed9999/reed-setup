@@ -5,10 +5,10 @@
 copy_vim_config()
 {
 
-cp ~/.vimrc ~/.backup.vimrc
-cp ~/.viminfo ~/.backup.viminfo
-cp ~/reed-setup/outfitting/config-files/.vimrc ~/.vimrc
-cp ~/reed-setup/outfitting/config-files/.viminfo ~/.viminfo
+  cp ~/.vimrc ~/.backup.vimrc
+  cp ~/.viminfo ~/.backup.viminfo
+  cp ~/reed-setup/outfitting/config-files/.vimrc ~/.vimrc
+  cp ~/reed-setup/outfitting/config-files/.viminfo ~/.viminfo
 }
 
 if [ "$1" == "--all" ]
@@ -22,3 +22,19 @@ fi
 
 sudo apt install vim
 copy_vim_config
+
+
+## This was in 1-basic-setup.sh and seems to be redundant.
+install_and_configure_vim()
+{
+  echo "Copying my standard config files."
+	cp --no-clobber ~/.vimrc ~/.vimrc-backup
+	cp --no-clobber ~/.viminfo ~/.viminfo-backup
+	cp --no-clobber $CONFIG_FILES_DIR/.vim* ~
+  if [ `command -v vim` = '' ]
+  then
+    echo "I should get around to installing vim. TODO."
+  else
+    echo "vim is already installed."
+  fi
+}

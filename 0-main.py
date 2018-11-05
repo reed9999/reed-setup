@@ -13,6 +13,8 @@ import yaml
 
 assert os.getcwd() == os.path.expanduser('~/reed-setup'), \
     "You must change directories to ~/reed-setup to run this."
+#handy tip:
+#os.chdir(os.path.join(os.path.abspath(os.path.curdir),u'subfolder'))
 
 
 # Still a bit too HARDCODED
