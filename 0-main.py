@@ -35,7 +35,7 @@ MAIN_SCRIPTS = [
 # downstream Python imports. Declaring as global doesn't work, so this feature
 # isn't really working.
 
-class NotYetWorkingError(RuntimeError):
+class NotYetWorkingError(NotImplementedError):
     """The purpose of this class is to give me something to throw in the 
     common case where I just wanted to get something going so I went ahead and 
     installed manually, leaving not-yet-working code in the scripts. I want to
@@ -53,7 +53,10 @@ class ReedSetupApp:
     def __init__(self):
         self._successes = []
         self._failures = []
+        #self.load_cached_successes()
 
+    def load_cached_successes(self):
+        raise NotYetWorkingError('working on this')
 
 
     def install_from_script(self, what):
