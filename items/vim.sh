@@ -7,8 +7,8 @@ copy_vim_config()
 
 cp ~/.vimrc ~/.backup.vimrc
 cp ~/.viminfo ~/.backup.viminfo
-cp ~/u/outfitting/config-files/.vimrc ~/.vimrc
-cp ~/u/outfitting/config-files/.viminfo ~/.viminfo
+cp ~/reed-setup/outfitting/config-files/.vimrc ~/.vimrc
+cp ~/reed-setup/outfitting/config-files/.viminfo ~/.viminfo
 }
 
 if [ "$1" == "--all" ]

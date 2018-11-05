@@ -4,11 +4,11 @@
 - 
   - git
   - vim
-  - redshift
-  - chromium
+  - vscode      
+  - chromium-browser
   - vlc
-  - bluefish
   - lynx
+  - redshift
   - p7zip-full
   - pidgin
-  - pycharm #OK not really yet
+  - jetbrains

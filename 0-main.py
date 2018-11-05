@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Top-level driver for my grand plan of automating Ubuntu setup "like I like 
-# it.
+# it".
 #
 # Main design question is whether to have Python drive bash (occasionally) or
 # vice versa. I want Python to be top level. Only use bash scripts where 
@@ -32,6 +32,14 @@ MAIN_SCRIPTS = [
 ]
 
 
+class NotYetWorkingError(RuntimeError):
+    """The purpose of this class is to give me something to throw in the 
+    common case where I just wanted to get something going so I went ahead and 
+    installed manually, leaving not-yet-working code in the scripts. I want to
+    see this error every time so it fails every time, reminding me to 
+    eventually get the script working!"""
+    pass
+
 class ReedSetupApp:
     """The main app class.
 
@@ -45,9 +53,25 @@ class ReedSetupApp:
 
 
 
+    def install_from_script(self, what):
+        items_path = os.path.join(
+                os.path.expanduser('~'), 'reed-setup', 'items',)
+        try:
+            cmd = os.path.join(items_path, '{}.py'.format(what))
+            rv = call(cmd, shell=True)
+            if rv !=0: raise FileNotFoundError(cmd)
+        except:
+            pass
+
+        #We could have put the following in a try block and used 
+        # except Exception as ex    etc. with raise SomeExceptionClass from ex
+        cmd = os.path.join(items_path, '{}.sh'.format(what))
+        return call(cmd, shell=True)
+
     def install_simple(self, what):
         try:
             return_value = self.install_from_script(what)
+            print ("OK return value {}".return_value)
         except:
             cmd = "sudo apt install {}".format(what)
             return_value = call(cmd, shell=True)
@@ -55,8 +79,6 @@ class ReedSetupApp:
             self._successes.append(what)
         else:
             self._failures.append(what)
-
-
 
 
     def install(self, what):
@@ -101,6 +123,13 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Status of success/failure (eventually to be written to a file for caching)
+# Successes: ['git', 'vim', 'redshift', 'vlc', 'bluefish', 'lynx', 'p7zip-full', 'pidgin']
+# Successes: ['git', 'vim', 'chromium-browser', 'vlc', 'lynx', 'redshift', 'p7zip-full', 'pidgin']
+# Failures: ['vscode', 'jetbrains']
+
+
 
 
 # Things that still go wrong
