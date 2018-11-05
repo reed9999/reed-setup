@@ -8,6 +8,7 @@
 ########################################
 import os
 import subprocess
+import sys
 from subprocess import call
 import yaml
 
@@ -103,11 +104,14 @@ class ReedSetupApp:
 
 
     @classmethod
-    def go(cls):
+    def go(cls, what=None):
         app = cls()
-        with open(DEFAULT_ITEMSFILE, 'r') as f:
-            list_of_what = yaml.load(f)
-            app.install(list_of_what)
+        if what is None: 
+            with open(DEFAULT_ITEMSFILE, 'r') as f:
+                list_of_what = yaml.load(f)
+                app.install(list_of_what)
+        else:
+            app.install(what)
         print ("Successes: {}".format(app._successes))
         print ("Failures: {}".format(app._failures))
 
@@ -130,7 +134,10 @@ class ReedSetupApp:
         app.install_scripts()
 
 def main():
-    ReedSetupApp.go()
+    if len(sys.argv) > 1: 
+        ReedSetupApp.go(sys.argv[1])
+    else:    
+        ReedSetupApp.go()
 
 if __name__ == '__main__':
     main()
@@ -141,10 +148,12 @@ if __name__ == '__main__':
 # Failures: ['vscode', 'jetbrains']
 # Successes: ['init', 'clone_repos', 'python-logilab-common', 'tox']
 # Failures: ['jetbrains', 'build_stuff_from_source', 'ffmpeg']
+# Successes: ['init', 'docky', 'golly']
+# Failures: ['ccsm', 'ffmpeg']
 
 
 
-# Things that still go wrong
+# From the previous approach -- Things that still [were going] wrong
 
 # The directory '/home/philip/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
 # The directory '/home/philip/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.

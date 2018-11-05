@@ -3,31 +3,45 @@
 # Initialization script - make sure all permissions are set etc.
 - init
 # From 1-basic-setup and its subsidiaries
-# - 
-#   - git
-#   - vim
-#   - vscode      
-#   - chromium-browser
-#   - vlc
-#   - lynx
-#   - redshift
-#   - p7zip-full
-#   - pidgin
+- 
+  - chromium-browser
+  - vlc
+  - lynx
+  - redshift
+  - p7zip-full
+  - pidgin
+  - anki
+  #Those with special handlers
+-  
+  - git
+  - vim
+  - vscode      
   - jetbrains
 
 # # From 2-build-code.sh
-# - 
-#   - clone_repos
-#   - python-logilab-common
-#   - tox
-#   - build_stuff_from_source
+- 
+  - clone_repos
+  - python-logilab-common
+  - tox
+  - build_stuff_from_source
 
     # Other
 - 
   # 3 specialty 
   # Something about Compiz Config Settings Manager but I apparently never 
   # bothered to get it working. Now I forget why this was deemed useful.
-  # - ccsm  
+  # ccsm did not have an apt package.
   - ffmpeg  #Not yet implemented
   - docky   
   - golly   #Fun with automatons, not that important
+
+  # Let's hold off on 4-hacking.sh
+  # That is all stuff that isn't really necessary but, for the next time I'm 
+  # in the mood to hack around with GNU tools, could be somewhat fun to get the code for. 
+
+- 
+  # 5 translation
+  # For now I'm just curious if the whole big script runs. Not that important 
+  # to me at the moment if it doesn't.
+  # Of course it would nice to modularize but low priority.
+  - all_translation

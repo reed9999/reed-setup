@@ -17,3 +17,8 @@ fi;
 # Be conservative for now. Files I know I want to copy.
 cp  ~/.config/Code/User/*.json /tmp
 cp CONFIG-FILES/Code/User/*.json ~/.config/Code/User
+
+# Extensions to add. Need to research if this can be done programmatically.
+# Python
+# pylint
+# Ruby
