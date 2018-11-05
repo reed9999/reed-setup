@@ -4,15 +4,15 @@
 - init
 # From 1-basic-setup and its subsidiaries
 - 
-  # - git
-  # - vim
-  # - vscode      
-  # - chromium-browser
-  # - vlc
-  # - lynx
-  # - redshift
-  # - p7zip-full
-  # - pidgin
+  - git
+  - vim
+  - vscode      
+  - chromium-browser
+  - vlc
+  - lynx
+  - redshift
+  - p7zip-full
+  - pidgin
   - jetbrains
 
 # From 2-build-code.sh
