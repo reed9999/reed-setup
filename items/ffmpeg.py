@@ -9,7 +9,8 @@ import subprocess
 from subprocess import call
 import yaml
 
-
+#See comment in 0-main.py about NotYetWorkingError.
+raise NotImplementedError
 
 proc1 = subprocess.Popen ("ffmpeg --help".split(), stdout=subprocess.PIPE)
 proc2 = call ("head -20".split(), stdin=proc1.stdout)

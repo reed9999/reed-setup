@@ -1,7 +1,15 @@
+# Script to install and configure the Jetbrains Toolbox
+
+if which jetbrains-toolbox ; then   #actually I don't know the command yet, just guessing.
+  echo "VS Code (code) appears to be installed."; exit 0; 
+fi;
+
+echo "Not yet complete; come back to this one"
+exit 999
+
 # It's a weakness that the URL is HARDCODED but I figure it will autoupdate
 # itself once it's installed.
 # We could use the INFO_URL to find the latest version.
-
 INFO_URL=https://data.services.jetbrains.com//products/releases?code=TBA&latest=true&type=release
 
 URL=https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.11.4269.tar.gz

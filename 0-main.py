@@ -31,6 +31,9 @@ MAIN_SCRIPTS = [
     'bash/90-links.sh',
 ]
 
+# I don't feel like renaming 0-main.py at this point (maybe later) for 
+# downstream Python imports. Declaring as global doesn't work, so this feature
+# isn't really working.
 
 class NotYetWorkingError(RuntimeError):
     """The purpose of this class is to give me something to throw in the 
@@ -131,7 +134,8 @@ if __name__ == '__main__':
 # Successes: ['git', 'vim', 'redshift', 'vlc', 'bluefish', 'lynx', 'p7zip-full', 'pidgin']
 # Successes: ['git', 'vim', 'chromium-browser', 'vlc', 'lynx', 'redshift', 'p7zip-full', 'pidgin']
 # Failures: ['vscode', 'jetbrains']
-
+# Successes: ['init', 'clone_repos', 'python-logilab-common', 'tox']
+# Failures: ['jetbrains', 'build_stuff_from_source', 'ffmpeg']
 
 
 
