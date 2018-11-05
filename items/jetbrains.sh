@@ -43,9 +43,17 @@ SHA256=.sha256
 
 pushd ~/Downloads
 result=`sha256sum -c $JETBRAINS_GLOB$SHA256|grep -c OK`
-if [ result != 1 ] ; then 
+if [ $result != 1 ] ; then
+  echo "Number of OKs was $result" 
   echo "Checksum did not check out! Aborting Jetbrains Toolbox install"
   exit 999;
 fi;
+
+if [ -e /opt/jetbrains* ] ; then 
+  sudo chown philip /opt
+  tar -xvf $JETBRAINS_GLOB --directory /opt
+fi 
+
+/opt/jetbrains*/jetbrains-toolbox
 popd
 
