@@ -4,6 +4,7 @@
 # For now it's just a reminder. Eventually prompt the user and default to my 
 # own info. 
 
+git config credential.helper store
 echo "TODO: Don't forget to set up the git.sh for real."
 
 echo "git config --global user.email \"you@example.com\" \

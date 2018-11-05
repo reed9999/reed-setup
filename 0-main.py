@@ -56,32 +56,32 @@ class ReedSetupApp:
     def install_from_script(self, what):
         items_path = os.path.join(
                 os.path.expanduser('~'), 'reed-setup', 'items',)
-        try:
-            cmd = os.path.join(items_path, '{}.py'.format(what))
-            rv = call(cmd, shell=True)
-            if rv !=0: raise FileNotFoundError(cmd)
-        except:
-            pass
-
-        #We could have put the following in a try block and used 
-        # except Exception as ex    etc. with raise SomeExceptionClass from ex
-        cmd = os.path.join(items_path, '{}.sh'.format(what))
-        rv = call(cmd, shell=True)
+        py_cmd = os.path.join(items_path, '{}.py'.format(what))
+        sh_cmd = os.path.join(items_path, '{}.sh'.format(what))
+        
+        if os.path.exists(py_cmd):
+            rv = call(py_cmd, shell=True)
+        elif os.path.exists(sh_cmd):
+            rv = call(sh_cmd, shell=True)
+        else :
+            print ("No scripts present for {}; fall back to default behavior".format(what))
+            rv = False
         return rv
 
     def install_simple(self, what):
         BASH_SUCCESS = 0
-        try:
-            return_value = self.install_from_script(what)
-            #print ("[{}] OK return value {}".format(what, return_value))
-        except:
+        print("\n=== INSTALLING {} ===".format(what))
+        return_value = self.install_from_script(what)
+        if return_value is False: 
             cmd = "sudo apt install {}".format(what)
             return_value = call(cmd, shell=True)
-        print ("For item {} rv is {}".format(what, return_value))
-        if return_value in [BASH_SUCCESS, True]:
+            print ("For item {} rv is {}".format(what, return_value))
+
+        if return_value == BASH_SUCCESS:
             self._successes.append(what)
         else:
             self._failures.append(what)
+        return return_value
 
 
     def install(self, what):
