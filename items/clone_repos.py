@@ -41,7 +41,9 @@ def clone_repo(repo):
         call_and_check_rv(cmd, "clone [{}]".format(repo))
     post_process(repo)
 
-def post_process(repo):
+def create_virtualenv(repo):
+    if os.path.exists(os.path.expanduser("~/{}/{}".format(VIRTUALENVS, repo))):
+        return False
     call_and_check_rv("mkdir -p {}".format(VIRTUALENVS), VIRTUALENVS)
     if repo in ['neural-networks-and-deep-learning']:
         pyver = 'python2.7'
@@ -49,7 +51,17 @@ def post_process(repo):
         pyver = 'python3.6'
     cmd = "virtualenv --python={} {}/{}".format(pyver, VIRTUALENVS, repo)
     call_and_check_rv(cmd)
+    return True
 
+def install_requirements(repo):
+    call_and_check_rv("/bin/bash; source {}/{}/bin/activate".format(VIRTUALENVS, repo))
+    call_and_check_rv("pip install -r {}/requirements.txt".format(VIRTUALENVS, repo))
+    call_and_check_rv("deactivate", "deactivate for {}".format(repo))
+    
+
+def post_process(repo):
+    create_virtualenv(repo)
+    install_requirements(repo)
 
 def clone_repo_full(repo):
     clone_repo(repo)
