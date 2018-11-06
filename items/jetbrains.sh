@@ -4,7 +4,8 @@
 # programmatically anyway -- don't know if Toolbox has a CLI -- but it's still 
 # good to see the canonical places they should go. 
 
-if which jetbrains-toolbox ; then   #actually I don't know the command yet, just guessing.
+WHERE_TO_INSTALL=/opt
+if [ -e $WHERE_TO_INSTALL/jetbrains-toolbox*/jetbrains-toolbox ] ; then   #actually I don't know the command yet, just guessing.
   echo "Jetbrains Toolbox appears to be installed."
   TOOLBOX_INSTALLED=true
 fi;
@@ -38,7 +39,6 @@ else
   echo "No need to download the toolbox gz file."
 fi;
 
-# See https://help.ubuntu.com/community/HowToSHA256SUM
 SHA256=.sha256
 
 pushd ~/Downloads
@@ -49,7 +49,9 @@ if [ $result != 1 ] ; then
   exit 999;
 fi;
 
-if [ -e /opt/jetbrains* ] ; then 
+if [ TOOLBOX_INSTALLED ] ; then
+  echo "Toolbox is already installed";
+else
   sudo chown philip /opt
   tar -xvf $JETBRAINS_GLOB --directory /opt
 fi 
