@@ -1,3 +1,7 @@
+#!/bin/bash
+# Install Visual Studio Code and configure it as desired.
+# DRY with tusk.sh -- would be good to REFACTOR out commonalities.
+
 if which code ; then 
   echo "VS Code (code) appears to be installed."; 
 else
