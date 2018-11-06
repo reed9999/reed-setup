@@ -56,6 +56,6 @@ else
   tar -xvf $JETBRAINS_GLOB --directory /opt
 fi 
 
-/opt/jetbrains*/jetbrains-toolbox
+/opt/jetbrains*/jetbrains-toolbox --minimize
 popd
 

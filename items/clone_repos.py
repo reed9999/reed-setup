@@ -9,6 +9,7 @@ import subprocess
 from subprocess import call
 
 repos_to_clone = [
+  "gdelt-demo", 
   "anki", 
   "econgraphs", 
   "qutebrowser", 
@@ -19,18 +20,28 @@ repos_to_clone = [
   "coala-bears", 
   "reedwebutil", 
   "tuneinrecordings", 
+  "neural-networks-and-deep-learning", 
   "django", 
 ]
 
-for repo in repos_to_clone:
-    repo_git_path = os.path.join(os.path.expanduser('~'), 'code', repo, '.git')
+def clone_repo_full(repo):
+    repo_path = os.path.join(os.path.expanduser('~'), 'code', repo, )
+    repo_git_path = os.path.join(repo_path, '.git',)
     if os.path.exists(repo_git_path):
         print("No need to clone {}; it seems to already exist.".format(repo))
-        continue
-    cmd = "git clone https://github.com/reed9999/{0} ~/code/{0}".format(repo)
-    return_value = call(cmd, shell=True)
-    if return_value != 0: 
-        raise RuntimeError("Return value is {} for {}".format(return_value, repo))
-    # TODO convert this to Python
-        # cd $repo
-        # git config credential.helper store
+    else:
+        cmd = "git clone https://github.com/reed9999/{0} ~/code/{0}".format(repo)
+        return_value = call(cmd, shell=True)
+        if return_value != 0: 
+            raise RuntimeError("Return value is {} for {}".format(return_value, repo))
+
+for repo in repos_to_clone:
+    clone_repo_full(repo)
+
+global_cmd = 'git config --global credential.helper store'
+return_value = call(global_cmd, shell=True)
+if return_value != 0: 
+    msg = "Could not set credential.helper globally. rv={}".format(
+        return_value, repo)
+    raise RuntimeError(msg)
+

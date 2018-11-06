@@ -82,7 +82,7 @@ class ReedSetupApp:
         print("\n=== INSTALLING {} ===".format(what))
         return_value = self.install_from_script(what)
         if return_value is False: 
-            cmd = "sudo apt install {}".format(what)
+            cmd = "sudo apt install -yq {}".format(what)
             return_value = call(cmd, shell=True)
             print ("For item {} rv is {}".format(what, return_value))
 

@@ -1,4 +1,5 @@
-########################################
+#!/bin/bash
+#
 # 5 TRANSLATION
 # How many things from http://fosmt.org/ can I build myself?
 ########################################
@@ -6,7 +7,7 @@
 date '+%Y/%m/%d_%H:%M:%S' >> diskspace-before-5-translation.txt
 df -vH >> diskspace-before-5-translation.txt
 
-typeset -A git_urls
+declare -A git_urls
 
 if [ "$1" == "--all" ]
 then
