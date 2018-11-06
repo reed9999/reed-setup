@@ -8,6 +8,7 @@ import os
 import subprocess
 from subprocess import call
 
+VIRTUALENVS = "~/.virtualenvs"
 repos_to_clone = [
   "gdelt-demo", 
   "anki", 
@@ -24,8 +25,9 @@ repos_to_clone = [
   "django", 
 ]
 
-def call_and_check_rv(cmd, failure_text='<left blank>', shell=True):
+def call_and_check_rv(cmd, failure_text=None, shell=True):
     return_value = call(cmd, shell=True)
+    failure_text = failure_text or cmd 
     if return_value != 0: 
         raise RuntimeError("ret val={}; point of failure={}".format(return_value, failure_text))
 
@@ -40,7 +42,14 @@ def clone_repo(repo):
     post_process(repo)
 
 def post_process(repo):
-    pass
+    call_and_check_rv("mkdir -p {}".format(VIRTUALENVS), VIRTUALENVS)
+    if repo in ['neural-networks-and-deep-learning']:
+        pyver = 'python2.7'
+    else:
+        pyver = 'python3.6'
+    cmd = "virtualenv --python={} {}/{}".format(pyver, VIRTUALENVS, repo)
+    call_and_check_rv(cmd)
+
 
 def clone_repo_full(repo):
     clone_repo(repo)
