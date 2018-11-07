@@ -15,6 +15,7 @@
   - okular
   #Those with special handlers
 -  
+  - symlinks
   - git
   - vim
   - vscode      

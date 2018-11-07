@@ -54,6 +54,10 @@ def create_virtualenv(repo):
     return True
 
 def install_requirements(repo):
+    cmd = "export VENV_DIR={}; export REPO={}; bash/pip_install_requirements.sh"
+    call_and_check_rv(cmd.format(VIRTUALENVS, repo))
+    
+def install_requirements_attempt1(repo):
     call_and_check_rv("/bin/bash; source {}/{}/bin/activate".format(VIRTUALENVS, repo))
     call_and_check_rv("pip install -r {}/requirements.txt".format(VIRTUALENVS, repo))
     call_and_check_rv("deactivate", "deactivate for {}".format(repo))
@@ -64,7 +68,7 @@ def post_process(repo):
     install_requirements(repo)
 
 def clone_repo_full(repo):
-    clone_repo(repo)
+    # clone_repo(repo) #TODO reenable this!
     post_process(repo)
 
 for repo in repos_to_clone:
