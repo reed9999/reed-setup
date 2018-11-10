@@ -7,6 +7,8 @@ tmp*
 *.swp
 *archive*
 
+#Downloads
+*.sha256*
 
 
 #Output and big files.

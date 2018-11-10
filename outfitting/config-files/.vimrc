@@ -3,4 +3,5 @@
 :se enc=utf-8
 :se fileencoding=utf-8
 :se fileencodings=ucs-bom,utf8,prc
+:se nu
 
