@@ -16,6 +16,7 @@ from subprocess import call
 os.chdir(os.path.expanduser('~/u'))
 
 for app in [
+  'vscode',
   'ffmpeg',
   'golly', 
   'docky',
