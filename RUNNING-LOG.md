@@ -1,3 +1,9 @@
+## 2018 Nov 11
+On computer 2 here are the results:
+`
+Successes: ['init', 'chromium-browser', 'vlc', 'lynx', 'redshift', 'p7zip-full', 'pidgin', 'anki', 'tusk', 'okular', 'git', 'vim', 'vscode', 'dropbox', 'jetbrains', 'bfg_repo_cleaner', 'python-logilab-common', 'python-pip', 'python3-pip', 'clone_repos', 'tox', 'build_stuff_from_source', 'docky', 'golly']
+Failures: ['symlinks', 'ffmpeg', 'all_translation']
+`
 ## 2018 Nov 4
 Computer wiped out by warranty support; great opportunity to test and rearrange my setup here.
 
