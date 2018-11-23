@@ -4,6 +4,9 @@
 - init
 # From 1-basic-setup and its subsidiaries
 - 
+  - graphviz
+  - graphviz-graphs
+  - graphviz-gd
   - chromium-browser
   - vlc
   - lynx
@@ -11,8 +14,10 @@
   - p7zip-full
   - pidgin
   - anki
-  - tusk
   - okular
+  - default-jre
+  - mysql-server  # add an item with 'systemctl enable mysql' to start automatically
+
   #Those with special handlers
 -  
   - symlinks
@@ -22,6 +27,7 @@
   - dropbox
   - jetbrains
   - bfg_repo_cleaner
+  #- tusk #This is downloading and shouldn't be
 
 # # From 2-build-code.sh
 - 

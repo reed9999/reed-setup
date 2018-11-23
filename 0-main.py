@@ -143,14 +143,8 @@ if __name__ == '__main__':
     main()
 
 # Status of success/failure (eventually to be written to a file for caching)
-# Successes: ['git', 'vim', 'redshift', 'vlc', 'bluefish', 'lynx', 'p7zip-full', 'pidgin']
-# Successes: ['git', 'vim', 'chromium-browser', 'vlc', 'lynx', 'redshift', 'p7zip-full', 'pidgin']
-# Failures: ['vscode', 'jetbrains']
-# Successes: ['init', 'clone_repos', 'python-logilab-common', 'tox']
-# Failures: ['jetbrains', 'build_stuff_from_source', 'ffmpeg']
-# Successes: ['init', 'docky', 'golly']
-# Failures: ['ccsm', 'ffmpeg']
-
+# Successes: ['init', 'graphviz', 'chromium-browser', 'vlc', 'lynx', 'redshift', 'p7zip-full', 'pidgin', 'anki', 'okular', 'default-jre', 'mysql-server', 'symlinks', 'git', 'vim', 'vscode', 'dropbox', 'jetbrains', 'bfg_repo_cleaner', 'python-logilab-common', 'python-pip', 'python3-pip', 'tox', 'build_stuff_from_source', 'docky', 'golly']
+# Failures: ['graphviz-graphs', 'graphviz-gd', 'clone_repos', 'ffmpeg', 'all_translation']
 
 
 # From the previous approach -- Things that still [were going] wrong

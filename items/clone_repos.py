@@ -8,25 +8,31 @@ import os
 import subprocess
 from subprocess import call
 
-VIRTUALENVS = "~/.virtualenvs"
+VIRTUALENVS = os.path.expanduser( "~/.virtualenvs")
 repos_to_clone = [
   "gdelt-demo", 
-  "anki", 
-  "econgraphs", 
-  "qutebrowser", 
-  "freeCodeCamp", 
-  "awesome-for-beginners", 
-  "Theano", 
-  "coala", 
-  "coala-bears", 
-  "reedwebutil", 
-  "tuneinrecordings", 
-  "neural-networks-and-deep-learning", 
-  "django", 
+#   "anki", 
+#   "econgraphs", 
+#   "qutebrowser", 
+#   "freeCodeCamp", 
+#   "awesome-for-beginners", 
+#   "Theano", 
+#   "coala", 
+#   "coala-bears", 
+#   "reedwebutil", 
+#   "tuneinrecordings", 
+#   "neural-networks-and-deep-learning", 
+#   "django", 
 ]
 
-def call_and_check_rv(cmd, failure_text=None, shell=True):
-    return_value = call(cmd, shell=True)
+def call_and_check_rv(cmd, env=None, failure_text=None, shell=True):
+    print( "env is {}".format(env))
+    env = env or dict({})
+    print( "cmd is {}".format(cmd))
+    print( "env is ")
+    for k in env:
+            print( k )
+    return_value = call(cmd, shell=True, env=env)
     failure_text = failure_text or cmd 
     if return_value != 0: 
         raise RuntimeError("ret val={}; point of failure={}".format(return_value, failure_text))
@@ -44,7 +50,7 @@ def clone_repo(repo):
 def create_virtualenv(repo):
     if os.path.exists(os.path.expanduser("~/{}/{}".format(VIRTUALENVS, repo))):
         return False
-    call_and_check_rv("mkdir -p {}".format(VIRTUALENVS), VIRTUALENVS)
+    call_and_check_rv("mkdir -p {}".format(VIRTUALENVS))
     if repo in ['neural-networks-and-deep-learning']:
         pyver = 'python2.7'
     else:
@@ -54,6 +60,16 @@ def create_virtualenv(repo):
     return True
 
 def install_requirements(repo):
+    install_requirements_attempt3()
+
+def install_requirements_attempt3(repo):
+    env = {'VENV_DIR': VIRTUALENVS, 'REPO': repo}
+    cmd = "bash/pip_install_requirements.sh"
+    print( "in attemp t3 env is {}".format(env))
+    #call_and_check_rv(cmd, env=env)
+    call_and_check_rv(cmd, env={'philip': 1, 'hello': 2})
+    
+def install_requirements_attempt2(repo):
     cmd = "export VENV_DIR={}; export REPO={}; bash/pip_install_requirements.sh"
     call_and_check_rv(cmd.format(VIRTUALENVS, repo))
     
@@ -66,6 +82,7 @@ def install_requirements_attempt1(repo):
 def post_process(repo):
     create_virtualenv(repo)
     install_requirements(repo)
+    exit
 
 def clone_repo_full(repo):
     # clone_repo(repo) #TODO reenable this!
