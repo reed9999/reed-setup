@@ -25,11 +25,27 @@ repos_to_clone = [
 #   "django", 
 ]
 
+def len_and_env_sanity_check(env):
+    """Apparently something is awry with my understanding of how to find the length of a data 
+    structure and print it out with print()! This is just to troubleshoot what on earth is 
+    going on here.
+    """
+    print( "at the beginning env is {}".format(env))
+    #env = env or [1, 2, 3]
+    if not env:
+        env = {}
+    the_len = len([1, 2, 3])
+    print( the_len)
+    print( "[checkpoint M] sanitycheck is ".format(the_len))
+    print( len([1, 2, 3]))
+    print( "after processing len(env) is ".format(len(env)))
+    print( "after processing env is ")
+    print( "THIS CONCLUDES THE SANITY CHECK")
+
 def call_and_check_rv(cmd, env=None, failure_text=None, shell=True):
-    print( "env is {}".format(env))
-    env = env or dict({})
     print( "cmd is {}".format(cmd))
-    print( "env is ")
+    if True:
+        len_and_env_sanity_check(env)
     for k in env:
             print( k )
     return_value = call(cmd, shell=True, env=env)
