@@ -1,4 +1,6 @@
 ## Using the terminal
+
+
 ### Get rid of Ctrl+S freezing
 Soln: Ctrl+Q
 
@@ -26,7 +28,22 @@ https://unix.stackexchange.com/questions/80822/ubuntu-unity-attach-script-to-lau
 
 kill -9 `ps -ef|grep chr|grep -v color`
 
+If processes appear to be hogging memory, see suggestions at askubuntu 120765
+ulimit is global
+cgroups might be helpful.
+
 
 ## GOOGLE DRIVE FROM UBUNTU
 http://www.omgubuntu.co.uk/2016/08/use-google-drive-ubuntu-16-04-linux-desktops
 sudo apt install gnome-control-center gnome-online-accounts
+
+
+## BATTERY
+gsettings set org.gnome.settings-daemon.plugins.power percentage-critical 8
+https://ubuntuforums.org/showthread.php?t=2227515
+https://ubuntuforums.org/showthread.php?t=2263393
+
+## THE FILES APP
+Unfortunately appears to be named files although it has some other 'real' name
+locate -b '.desktop' | xargs grep -ls '^Name.*=Files$' | xargs grep '^Exec.*'
+https://askubuntu.com/questions/901011/what-is-the-searchable-program-name-of-the-files-application

@@ -59,3 +59,7 @@ fi
 /opt/jetbrains*/jetbrains-toolbox --minimize
 popd
 
+
+# If there's a way to install plugins I should probably do that here too. 
+# For example, Table Editor.
+
