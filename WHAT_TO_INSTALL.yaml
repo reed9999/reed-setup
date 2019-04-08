@@ -2,6 +2,8 @@
 
 # Initialization script - make sure all permissions are set etc.
 - init
+# New
+- subversion
 # From 1-basic-setup and its subsidiaries
 - 
   - graphviz
