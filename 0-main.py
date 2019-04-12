@@ -102,6 +102,11 @@ class ReedSetupApp:
                 self.install(subitem)
 
 
+    def handle_successes(self):
+       print ("Successes: {}".format(self._successes))
+
+    def handle_failures(self):
+        print ("Failures: {}".format(self._failures))
 
     @classmethod
     def go(cls, what=None):
@@ -112,8 +117,8 @@ class ReedSetupApp:
                 app.install(list_of_what)
         else:
             app.install(what)
-        print ("Successes: {}".format(app._successes))
-        print ("Failures: {}".format(app._failures))
+        app.handle_successes()
+        app.handle_failures()
 
         #cls.old_style_go()
 
