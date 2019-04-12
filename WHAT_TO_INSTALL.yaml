@@ -2,8 +2,10 @@
 
 # Initialization script - make sure all permissions are set etc.
 - init
-# New
-- subversion
+# For Yucata development
+- 
+  - subversion
+  - mono-devel
 # From 1-basic-setup and its subsidiaries
 - 
   - graphviz
