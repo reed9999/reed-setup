@@ -23,3 +23,6 @@ https://stackoverflow.com/questions/4035779/gitignore-by-file-size
 ## Reverse .gitignore
 https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
 use a !
+
+## Merge but exclude a few files
+https://medium.com/@porteneuve/how-to-make-git-preserve-specific-files-while-merging-18c92343826b
