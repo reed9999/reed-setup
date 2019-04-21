@@ -102,9 +102,10 @@ class ReedSetupApp:
                 self.install(subitem)
 
 
-    def handle_successes(self)
-       SUCCESSES_FILENAME = 'success.yaml'
-       print ("Successes: {}".format(self._successes))
+    def handle_successes(self):
+        SUCCESSES_FILENAME = 'success.yaml'
+        print ("Successes: {}".format(self._successes))
+        #TODO: Output this list to the file
         
 
     def handle_failures(self):

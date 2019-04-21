@@ -5,7 +5,7 @@
 # For Yucata development
 - 
   - subversion
-  - mono-devel
+  - dotnet
 
 # From 1-basic-setup and its subsidiaries
 #-
@@ -82,3 +82,7 @@
 ## - dropbox
 ## - jetbrains
 #
+
+# Mono doesn't seem like a good approach for the C# stuff.
+#  https://askubuntu.com/questions/1022007/is-knowledge-of-c-of-any-use-in-a-linux-system#comment1660169_1022008
+#  - mono-devel
